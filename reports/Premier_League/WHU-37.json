@@ -1,0 +1,139 @@
+{
+  "playerValue": {
+    "total": 518964999,
+    "min": 205000,
+    "max": 67000000,
+    "avg": 17298833.3,
+    "median": 10100000,
+    "standardDeviation": 17632188.14230037,
+    "percentile25": 1000000,
+    "percentile75": 27000000,
+    "skewness": 1.1729979972517426,
+    "kurtosis": 1.0521362532468097,
+    "outliers": [
+      67000000
+    ],
+    "badValue": 4
+  },
+  "playerAge": {
+    "total": 893,
+    "min": 18,
+    "max": 39,
+    "avg": 26.264705882352942,
+    "median": 27,
+    "standardDeviation": 5.611484146396524,
+    "percentile25": 20,
+    "percentile75": 30,
+    "skewness": 0.10571565368657339,
+    "kurtosis": -0.7726320610517265,
+    "outliers": [],
+    "badValue": 0
+  },
+  "playerATT": {
+    "total": 1345,
+    "min": 38,
+    "max": 78,
+    "avg": 58.47826086956522,
+    "median": 60,
+    "standardDeviation": 13.840298957619915,
+    "percentile25": 44,
+    "percentile75": 72,
+    "skewness": -0.15583479303849979,
+    "kurtosis": -1.4796543815509502,
+    "outliers": [],
+    "badValue": 0
+  },
+  "playerTEC": {
+    "total": 1251,
+    "min": 36,
+    "max": 80,
+    "avg": 54.391304347826086,
+    "median": 53,
+    "standardDeviation": 9.398145656295055,
+    "percentile25": 49,
+    "percentile75": 60,
+    "skewness": 0.8347616425028683,
+    "kurtosis": 1.9329453353263197,
+    "outliers": [
+      80
+    ],
+    "badValue": 0
+  },
+  "playerTAC": {
+    "total": 1220,
+    "min": 35,
+    "max": 73,
+    "avg": 53.04347826086956,
+    "median": 52,
+    "standardDeviation": 11.536250091020516,
+    "percentile25": 42,
+    "percentile75": 66,
+    "skewness": 0.19603858020947762,
+    "kurtosis": -1.0129803938342454,
+    "outliers": [],
+    "badValue": 0
+  },
+  "playerDEF": {
+    "total": 1215,
+    "min": 18,
+    "max": 78,
+    "avg": 52.82608695652174,
+    "median": 59,
+    "standardDeviation": 19.367503428060026,
+    "percentile25": 32,
+    "percentile75": 70,
+    "skewness": -0.4921006690591628,
+    "kurtosis": -1.082129533159351,
+    "outliers": [],
+    "badValue": 0
+  },
+  "playerCRE": {
+    "total": 1304,
+    "min": 37,
+    "max": 80,
+    "avg": 56.69565217391305,
+    "median": 56,
+    "standardDeviation": 10.389939877671367,
+    "percentile25": 49,
+    "percentile75": 66,
+    "skewness": 0.37464583862620376,
+    "kurtosis": 0.003711799861939369,
+    "outliers": [],
+    "badValue": 0
+  },
+  "playerTOT": {
+    "total": 6335,
+    "min": 235,
+    "max": 344,
+    "avg": 275.4347826086956,
+    "median": 274,
+    "standardDeviation": 24.371804962428488,
+    "percentile25": 258,
+    "percentile75": 287,
+    "skewness": 1.160852536340911,
+    "kurtosis": 2.556838158809617,
+    "outliers": [
+      344
+    ],
+    "badValue": 0
+  },
+  "playerRating": {
+    "total": 157.4,
+    "min": 6.1,
+    "max": 8,
+    "avg": 6.843478260869565,
+    "median": 6.8,
+    "standardDeviation": 0.4147561745291069,
+    "percentile25": 6.6,
+    "percentile75": 7,
+    "skewness": 0.9182837383137026,
+    "kurtosis": 1.734765725577403,
+    "outliers": [
+      8
+    ],
+    "badValue": 0
+  },
+  "playerNumber": 34,
+  "noATTR": 11,
+  "noRating": 11
+}

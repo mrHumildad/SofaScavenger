@@ -52,7 +52,7 @@ function calculateCorrelation(xArray, yArray) {
 function calculateStats(unfilteredArray) {
     const array = unfilteredArray.filter(value => value);
     if (array.length === 0) return null;
-
+    const badValue = unfilteredArray.length - array.length;
     const total = array.reduce((acc, val) => acc + val, 0);
     const min = Math.min(...array);
     const max = Math.max(...array);
@@ -76,7 +76,8 @@ function calculateStats(unfilteredArray) {
         percentile75: q3,
         skewness,
         kurtosis,
-        outliers, 
+        outliers,
+        badValue
     };
 };
 

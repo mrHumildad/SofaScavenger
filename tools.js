@@ -1,3 +1,5 @@
+const calculateStats = require('./statsLIB')
+
 function convertToNumber(str) {
     // Remove any commas from the string
     str = str.replace(",", "");
@@ -44,10 +46,56 @@ function convertToNumber(str) {
     return currentYear - birthYear;
 }
 
+const initArrays = {
+  teamFollowers: [],
+  stadium: [],
+  plValue : [],
+  plAge: [],
+  plATT: [],
+  plTEC: [],
+  plTAC: [],
+  plDEF: [],
+  plCRE: [],
+  plTOT: [],
+  plRating: [],
+  plNumber: 0,
+  noATTR: [],
+  noRating: [] 
+};
+
+const getReport = (rawData, isTeam) => {
+  const baseReport = {
+    playerValue: calculateStats(rawData.plValue),
+    playerAge: calculateStats(rawData.plAge),
+    playerATT: calculateStats(rawData.plATT),
+    playerTEC: calculateStats(rawData.plTEC),
+    playerTAC: calculateStats(rawData.plTAC),
+    playerDEF: calculateStats(rawData.plDEF),
+    playerCRE: calculateStats(rawData.plCRE),
+    playerTOT: calculateStats(rawData.plTOT),
+    playerRating: calculateStats(rawData.plRating),
+    playerNumber: rawData.plNumber,
+    noATTR: rawData.noATTR.length,
+    noRating: rawData.noRating.length
+  };
+
+  /* if (!isTeam) {
+    return {
+      ...baseReport,
+      teamFollowers: calculateStats(rawData.teamFollowers),
+      stadiumCapacity: calculateStats(rawData.stadium)
+    }; */
+  /* } else {
+    } */
+ return baseReport;
+};
+
   module.exports = {
     convertToNumber,
     formatNumber,
-    calculateAge
+    calculateAge,
+    getReport,
+    initArrays
   };
   
 
