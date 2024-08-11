@@ -1,0 +1,869 @@
+{
+  "id": "3208",
+  "colors": {
+    "primary": "#ffffff",
+    "secondary": "#003366",
+    "text": "#003366"
+  },
+  "stadium": {
+    "name": "Jose Amalfitani",
+    "capacity": 49540
+  },
+  "abbr": "VEL",
+  "name": "Vélez Sarsfield",
+  "nat": "ARG",
+  "city": "Buenos Aires",
+  "coachId": 53544,
+  "coachLink": "https://www.sofascore.com/manager/gustavo-quinteros/53544",
+  "followers": "25k",
+  "roster": [
+    {
+      "name": "Braian Romero",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/braian-romero/789435",
+      "id": 789435,
+      "position": "F",
+      "jerseyNumber": "9",
+      "height": 180,
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 9,
+      "dateOfBirth": 676944000,
+      "marketValue": 1200000,
+      "attr": {
+        "ATT": "62",
+        "TEC": "44",
+        "TAC": "46",
+        "DEF": "37",
+        "CRE": "38",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "Ball controlPassing"
+        ],
+        "rating": "6.8",
+        "roles": [
+          {
+            "role": "ST",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/789435.jpg"
+    },
+    {
+      "name": "M. Santos",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/michael-santos/339115",
+      "id": 339115,
+      "position": "F",
+      "jerseyNumber": "7",
+      "height": 174,
+      "preferredFoot": "Right",
+      "country": "URY",
+      "shirtNumber": 7,
+      "dateOfBirth": 731980800,
+      "marketValue": 1500000,
+      "attr": {
+        "ATT": "64",
+        "TEC": "47",
+        "TAC": "38",
+        "DEF": "26",
+        "CRE": "43",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "Ball controlAerial duels"
+        ],
+        "rating": "7.0",
+        "roles": [
+          {
+            "role": "ST",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/339115.jpg"
+    },
+    {
+      "name": "M. Pellegrini",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/matias-pellegrini/940610",
+      "id": 940610,
+      "position": "F",
+      "jerseyNumber": "11",
+      "height": 176,
+      "preferredFoot": "Left",
+      "country": "ARG",
+      "shirtNumber": 11,
+      "dateOfBirth": 952732800,
+      "marketValue": 2000000,
+      "attr": {
+        "ATT": "54",
+        "TEC": "56",
+        "TAC": "41",
+        "DEF": "36",
+        "CRE": "50",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.9",
+        "roles": [
+          {
+            "role": "LW",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/940610.jpg"
+    },
+    {
+      "name": "T. Vecino",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/thiago-vecino/923802",
+      "id": 923802,
+      "position": "F",
+      "jerseyNumber": "18",
+      "height": 183,
+      "preferredFoot": "Left",
+      "country": "URY",
+      "shirtNumber": 18,
+      "dateOfBirth": 919900800,
+      "marketValue": 765000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/923802.jpg"
+    },
+    {
+      "name": "A. Sarco",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/sarco-alejo/1482433",
+      "id": 1482433,
+      "position": "F",
+      "jerseyNumber": "30",
+      "height": 179,
+      "preferredFoot": "Left",
+      "country": "ARG",
+      "shirtNumber": 30,
+      "dateOfBirth": 1136505600,
+      "marketValue": 455000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1482433.jpg"
+    },
+    {
+      "name": "R. Centurión",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/ricardo-centurion/249397",
+      "id": 249397,
+      "position": "M",
+      "jerseyNumber": "20",
+      "height": 174,
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 20,
+      "dateOfBirth": 727401600,
+      "marketValue": 23000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/249397.jpg"
+    },
+    {
+      "name": "R. Piñeiro",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/rodrigo-pineiro/924872",
+      "id": 924872,
+      "position": "M",
+      "jerseyNumber": "17",
+      "height": 175,
+      "preferredFoot": "Right",
+      "country": "URY",
+      "shirtNumber": 17,
+      "dateOfBirth": 925862400,
+      "marketValue": 1200000,
+      "attr": {
+        "ATT": "61",
+        "TEC": "61",
+        "TAC": "38",
+        "DEF": "33",
+        "CRE": "53",
+        "strengths": [
+          "Long balls"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.8",
+        "roles": [
+          {
+            "role": "RW",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "LW",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/924872.jpg"
+    },
+    {
+      "name": "T. Fernández",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/thiago-fernandez/1201412",
+      "id": 1201412,
+      "position": "M",
+      "jerseyNumber": "27",
+      "height": 175,
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 27,
+      "dateOfBirth": 1080950400,
+      "marketValue": 1900000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1201412.jpg"
+    },
+    {
+      "name": "C. Aquino",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/claudio-aquino/340455",
+      "id": 340455,
+      "position": "M",
+      "jerseyNumber": "22",
+      "height": 172,
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 22,
+      "dateOfBirth": 680313600,
+      "marketValue": 1600000,
+      "attr": {
+        "ATT": "63",
+        "TEC": "64",
+        "TAC": "40",
+        "DEF": "36",
+        "CRE": "68",
+        "strengths": [
+          "Direct free kicksPlaymaking"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.8",
+        "roles": [
+          {
+            "role": "AM",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "ML",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/340455.jpg"
+    },
+    {
+      "name": "S. Cáseres",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/santiago-caseres/856132",
+      "id": 856132,
+      "position": "M",
+      "jerseyNumber": "35",
+      "height": 177,
+      "preferredFoot": "Left",
+      "country": "ARG",
+      "shirtNumber": 35,
+      "dateOfBirth": 856828800,
+      "marketValue": 1200000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/856132.jpg"
+    },
+    {
+      "name": "C. Ordoñez",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/christian-ordonez/1201388",
+      "id": 1201388,
+      "position": "M",
+      "jerseyNumber": "32",
+      "height": 177,
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 32,
+      "dateOfBirth": 1076284800,
+      "marketValue": 2200000,
+      "attr": {
+        "ATT": "48",
+        "TEC": "49",
+        "TAC": "42",
+        "DEF": "52",
+        "CRE": "52",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.8",
+        "roles": [
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DM",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1201388.jpg"
+    },
+    {
+      "name": "F. Pizzini",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/francisco-pizzini/257475",
+      "id": 257475,
+      "position": "M",
+      "jerseyNumber": "20",
+      "height": 179,
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 20,
+      "dateOfBirth": 748396800,
+      "marketValue": 2900000,
+      "attr": {
+        "ATT": "55",
+        "TEC": "48",
+        "TAC": "36",
+        "DEF": "43",
+        "CRE": "55",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "Ball controlPassing"
+        ],
+        "rating": "7.7",
+        "roles": [
+          {
+            "role": "RW",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "LW",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/257475.jpg"
+    },
+    {
+      "name": "A. Bouzat",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/agustin-bouzat/830699",
+      "id": 830699,
+      "position": "M",
+      "jerseyNumber": "26",
+      "height": 173,
+      "preferredFoot": "Left",
+      "country": "ARG",
+      "shirtNumber": 26,
+      "dateOfBirth": 764812800,
+      "marketValue": 465000,
+      "attr": {
+        "ATT": "46",
+        "TEC": "49",
+        "TAC": "46",
+        "DEF": "58",
+        "CRE": "45",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "Aerial duelsLong balls"
+        ],
+        "rating": "6.7",
+        "roles": [
+          {
+            "role": "RW",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DM",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "LW",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/830699.jpg"
+    },
+    {
+      "name": "Y. Gordillo",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/yeison-gordillo/285429",
+      "id": 285429,
+      "position": "M",
+      "jerseyNumber": "6",
+      "height": 176,
+      "preferredFoot": "Right",
+      "country": "COL",
+      "shirtNumber": 6,
+      "dateOfBirth": 709430400,
+      "marketValue": 365000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/285429.jpg"
+    },
+    {
+      "name": "V. Gómez",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/diego-gomez/1186010",
+      "id": 1186010,
+      "position": "D",
+      "jerseyNumber": "31",
+      "height": 181,
+      "preferredFoot": "Left",
+      "country": "ARG",
+      "shirtNumber": 31,
+      "dateOfBirth": 1056585600,
+      "marketValue": 8400000,
+      "attr": {
+        "ATT": "34",
+        "TEC": "42",
+        "TAC": "51",
+        "DEF": "73",
+        "CRE": "35",
+        "strengths": [
+          "Ground duels"
+        ],
+        "weaknesses": [
+          "Discipline"
+        ],
+        "rating": "6.7",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1186010.jpg"
+    },
+    {
+      "name": "E. Mammana",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/emanuel-mammana/358914",
+      "id": 358914,
+      "position": "D",
+      "jerseyNumber": "2",
+      "height": 183,
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 2,
+      "dateOfBirth": 823910400,
+      "marketValue": 2500000,
+      "attr": {
+        "ATT": "34",
+        "TEC": "45",
+        "TAC": "63",
+        "DEF": "79",
+        "CRE": "37",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.7",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/358914.jpg"
+    },
+    {
+      "name": "J. García",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/joaquin-garcia/989860",
+      "id": 989860,
+      "position": "D",
+      "jerseyNumber": "4",
+      "height": 182,
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 4,
+      "dateOfBirth": 998265600,
+      "marketValue": 1900000,
+      "attr": {
+        "ATT": "37",
+        "TEC": "47",
+        "TAC": "49",
+        "DEF": "68",
+        "CRE": "42",
+        "strengths": [
+          "TacklingGround duels"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.8",
+        "roles": [
+          {
+            "role": "DR",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/989860.jpg"
+    },
+    {
+      "name": "D. Fernández",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/damian-fernandez/989201",
+      "id": 989201,
+      "position": "D",
+      "jerseyNumber": "34",
+      "height": 178,
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 34,
+      "dateOfBirth": 1009929600,
+      "marketValue": 1400000,
+      "attr": {
+        "ATT": "34",
+        "TEC": "42",
+        "TAC": "49",
+        "DEF": "68",
+        "CRE": "37",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "Discipline"
+        ],
+        "rating": "6.9",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/989201.jpg"
+    },
+    {
+      "name": "A. Quirós",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/aaron-quiros/1113232",
+      "id": 1113232,
+      "position": "D",
+      "jerseyNumber": "6",
+      "height": 172,
+      "preferredFoot": "Left",
+      "country": "ARG",
+      "shirtNumber": 6,
+      "dateOfBirth": 1004486400,
+      "marketValue": 4700000,
+      "attr": {
+        "ATT": "36",
+        "TEC": "41",
+        "TAC": "53",
+        "DEF": "69",
+        "CRE": "36",
+        "strengths": [
+          "Ground duels"
+        ],
+        "weaknesses": [
+          "Long balls"
+        ],
+        "rating": "6.1",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1113232.jpg"
+    },
+    {
+      "name": "E. Gómez",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/elias-gomez/365862",
+      "id": 365862,
+      "position": "D",
+      "jerseyNumber": "3",
+      "height": 175,
+      "preferredFoot": "Left",
+      "country": "ARG",
+      "shirtNumber": 3,
+      "dateOfBirth": 771120000,
+      "marketValue": 945000,
+      "attr": {
+        "ATT": "40",
+        "TEC": "45",
+        "TAC": "41",
+        "DEF": "59",
+        "CRE": "45",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.7",
+        "roles": [
+          {
+            "role": "DL",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "ML",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/365862.jpg"
+    },
+    {
+      "name": "A. Lagos",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/agustin-lagos/993929",
+      "id": 993929,
+      "position": "D",
+      "jerseyNumber": "14",
+      "height": 184,
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 14,
+      "dateOfBirth": 1002585600,
+      "marketValue": 410000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/993929.jpg"
+    },
+    {
+      "name": "L. Jara",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/leonardo-jara/250933",
+      "id": 250933,
+      "position": "D",
+      "jerseyNumber": "29",
+      "height": 183,
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 29,
+      "dateOfBirth": 674697600,
+      "marketValue": 210000,
+      "attr": {
+        "ATT": "39",
+        "TEC": "48",
+        "TAC": "41",
+        "DEF": "65",
+        "CRE": "41",
+        "strengths": [
+          "TacklingGround duels"
+        ],
+        "weaknesses": [
+          "Long balls"
+        ],
+        "rating": "7.8",
+        "roles": [
+          {
+            "role": "DR",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/250933.jpg"
+    },
+    {
+      "name": "T. Guidara",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/tomas-guidara/871519",
+      "id": 871519,
+      "position": "D",
+      "jerseyNumber": "24",
+      "height": 180,
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 24,
+      "dateOfBirth": 826675200,
+      "marketValue": 870000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/871519.jpg"
+    },
+    {
+      "name": "T. Cavanagh",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/tomas-cavanagh/1086278",
+      "id": 1086278,
+      "position": "D",
+      "jerseyNumber": "37",
+      "height": 183,
+      "preferredFoot": "Left",
+      "country": "ARG",
+      "shirtNumber": 37,
+      "dateOfBirth": 978652800,
+      "marketValue": 180000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1086278.jpg"
+    },
+    {
+      "name": "P. Pernicone",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/patricio-pernicone/1086288",
+      "id": 1086288,
+      "position": "D",
+      "jerseyNumber": "23",
+      "height": 183,
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 23,
+      "dateOfBirth": 994204800,
+      "marketValue": 45000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1086288.jpg"
+    },
+    {
+      "name": "L. Roldán",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/leonel-roldan/1201404",
+      "id": 1201404,
+      "position": "D",
+      "jerseyNumber": "19",
+      "height": 175,
+      "country": "ARG",
+      "shirtNumber": 19,
+      "dateOfBirth": 1097366400,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1201404.jpg"
+    },
+    {
+      "name": "J. Gordon",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/jano-gordon/1894551",
+      "id": 1894551,
+      "position": "D",
+      "jerseyNumber": "21",
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 21,
+      "dateOfBirth": 1087344000,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "R. Rodríguez",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/rodriguez-randall/1087006",
+      "id": 1087006,
+      "position": "G",
+      "jerseyNumber": "1",
+      "height": 188,
+      "preferredFoot": "Right",
+      "country": "URY",
+      "shirtNumber": 1,
+      "dateOfBirth": 1070064000,
+      "marketValue": 280000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1087006.jpg"
+    },
+    {
+      "name": "T. Marchiori",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/tomas-marchiori/898750",
+      "id": 898750,
+      "position": "G",
+      "jerseyNumber": "1",
+      "height": 186,
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 1,
+      "dateOfBirth": 790560000,
+      "marketValue": 2900000,
+      "attr": {
+        "ATT": "65",
+        "TEC": "50",
+        "TAC": "56",
+        "DEF": "54",
+        "CRE": "57",
+        "strengths": [
+          "HandlingReflexesLong shots saving"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "7.2",
+        "roles": [
+          {
+            "role": "GK",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/898750.jpg"
+    },
+    {
+      "name": "F. Bussio",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/felipe-bussio/1894553",
+      "id": 1894553,
+      "jerseyNumber": "45",
+      "country": "ARG",
+      "shirtNumber": 45,
+      "dateOfBirth": 1087344000,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "T. Silvero",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/thiago-silveor/1894554",
+      "id": 1894554,
+      "jerseyNumber": "40",
+      "country": "ARG",
+      "shirtNumber": 40,
+      "dateOfBirth": 1145318400,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "I. Andrada",
+      "team": "3208",
+      "url": "https://www.sofascore.com/player/isaias-andrada/1901968",
+      "id": 1901968,
+      "jerseyNumber": "43",
+      "shirtNumber": 43,
+      "attr": {},
+      "image": "placeholder"
+    }
+  ],
+  "coach": {
+    "id": 53544,
+    "name": "G. Quinteros",
+    "favFormation": "4-2-3-1",
+    "nat": "BOL",
+    "url": "https://www.sofascore.com/manager/gustavo-quinteros/53544",
+    "birth": -153878400,
+    "performance": {
+      "total": 480,
+      "wins": 238,
+      "draws": 108,
+      "losses": 134,
+      "goalsScored": 732,
+      "goalsConceded": 518,
+      "totalPoints": 822
+    },
+    "image": {}
+  }
+}

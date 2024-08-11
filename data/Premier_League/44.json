@@ -1,0 +1,1053 @@
+{
+  "id": "44",
+  "colors": {
+    "primary": "#cc0000",
+    "secondary": "#ffffff",
+    "text": "#ffffff"
+  },
+  "stadium": {
+    "name": "Anfield",
+    "capacity": 60400
+  },
+  "abbr": "LIV",
+  "name": "Liverpool",
+  "nat": "ENG",
+  "city": "Liverpool",
+  "coachId": 787522,
+  "coachLink": "https://www.sofascore.com/manager/arne-slot/787522",
+  "followers": "2.1M",
+  "roster": [
+    {
+      "name": "M. Salah",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/mohamed-salah/159665",
+      "id": 159665,
+      "position": "F",
+      "jerseyNumber": "11",
+      "height": 175,
+      "preferredFoot": "Left",
+      "country": "EGY",
+      "shirtNumber": 11,
+      "dateOfBirth": 708566400,
+      "marketValue": 53000000,
+      "attr": {
+        "ATT": "90",
+        "TEC": "64",
+        "TAC": "58",
+        "DEF": "22",
+        "CRE": "80",
+        "strengths": [
+          "FinishingHigh pressingPlaymaking"
+        ],
+        "weaknesses": [
+          "Aerial duelsBall control"
+        ],
+        "rating": "7.2",
+        "roles": [
+          {
+            "role": "RW",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/159665.jpg"
+    },
+    {
+      "name": "D. Núñez",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/darwin-nunez/924871",
+      "id": 924871,
+      "position": "F",
+      "jerseyNumber": "9",
+      "height": 188,
+      "preferredFoot": "Right",
+      "country": "URY",
+      "shirtNumber": 9,
+      "dateOfBirth": 930182400,
+      "marketValue": 64000000,
+      "attr": {
+        "ATT": "78",
+        "TEC": "59",
+        "TAC": "60",
+        "DEF": "29",
+        "CRE": "61",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "Passing"
+        ],
+        "rating": "6.2",
+        "roles": [
+          {
+            "role": "ST",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/924871.jpg"
+    },
+    {
+      "name": "L. Díaz",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/luis-diaz/883537",
+      "id": 883537,
+      "position": "F",
+      "jerseyNumber": "7",
+      "height": 178,
+      "preferredFoot": "Right",
+      "country": "COL",
+      "shirtNumber": 7,
+      "dateOfBirth": 853113600,
+      "marketValue": 81000000,
+      "attr": {
+        "ATT": "73",
+        "TEC": "69",
+        "TAC": "47",
+        "DEF": "20",
+        "CRE": "64",
+        "strengths": [
+          "Long ballsPassingHigh pressing"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "7.0",
+        "roles": [
+          {
+            "role": "LW",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/883537.jpg"
+    },
+    {
+      "name": "C. Gakpo",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/cody-gakpo/862967",
+      "id": 862967,
+      "position": "F",
+      "jerseyNumber": "18",
+      "height": 193,
+      "preferredFoot": "Right",
+      "country": "NLD",
+      "shirtNumber": 18,
+      "dateOfBirth": 926035200,
+      "marketValue": 53000000,
+      "attr": {
+        "ATT": "78",
+        "TEC": "70",
+        "TAC": "51",
+        "DEF": "33",
+        "CRE": "68",
+        "strengths": [
+          "High pressingConsistencyPositioning"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "7.5",
+        "roles": [
+          {
+            "role": "ST",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "LW",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/862967.jpg"
+    },
+    {
+      "name": "D. Jota",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/diogo-jota/606164",
+      "id": 606164,
+      "position": "F",
+      "jerseyNumber": "20",
+      "height": 178,
+      "preferredFoot": "Right",
+      "country": "PRT",
+      "shirtNumber": 20,
+      "dateOfBirth": 849657600,
+      "marketValue": 49000000,
+      "attr": {
+        "ATT": "81",
+        "TEC": "65",
+        "TAC": "62",
+        "DEF": "34",
+        "CRE": "66",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "Ball control"
+        ],
+        "rating": "6.8",
+        "roles": [
+          {
+            "role": "LW",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "ST",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/606164.jpg"
+    },
+    {
+      "name": "B. Doak",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/ben-doak/1154861",
+      "id": 1154861,
+      "position": "F",
+      "jerseyNumber": "50",
+      "height": 174,
+      "preferredFoot": "Right",
+      "country": "SCO",
+      "shirtNumber": 50,
+      "dateOfBirth": 1131667200,
+      "marketValue": 9700000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1154861.jpg"
+    },
+    {
+      "name": "A. Mac Allister",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/alexis-mac-allister/895324",
+      "id": 895324,
+      "position": "M",
+      "jerseyNumber": "10",
+      "height": 176,
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 10,
+      "dateOfBirth": 914457600,
+      "marketValue": 82000000,
+      "attr": {
+        "ATT": "61",
+        "TEC": "61",
+        "TAC": "58",
+        "DEF": "51",
+        "CRE": "67",
+        "strengths": [
+          "PlaymakingPenalty takingHigh pressing"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.1",
+        "roles": [
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/895324.jpg"
+    },
+    {
+      "name": "D. Szoboszlai",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/dominik-szoboszlai/869856",
+      "id": 869856,
+      "position": "M",
+      "jerseyNumber": "8",
+      "height": 187,
+      "preferredFoot": "Right",
+      "country": "HUN",
+      "shirtNumber": 8,
+      "dateOfBirth": 972432000,
+      "marketValue": 68000000,
+      "attr": {
+        "ATT": "72",
+        "TEC": "70",
+        "TAC": "51",
+        "DEF": "34",
+        "CRE": "77",
+        "strengths": [
+          "PlaymakingLong ballsPassing"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.9",
+        "roles": [
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "AM",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/869856.jpg"
+    },
+    {
+      "name": "H. Elliott",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/harvey-elliott/955245",
+      "id": 955245,
+      "position": "M",
+      "jerseyNumber": "19",
+      "height": 170,
+      "preferredFoot": "Left",
+      "country": "ENG",
+      "shirtNumber": 19,
+      "dateOfBirth": 1049414400,
+      "marketValue": 36000000,
+      "attr": {
+        "ATT": "67",
+        "TEC": "65",
+        "TAC": "48",
+        "DEF": "38",
+        "CRE": "73",
+        "strengths": [
+          "PassingLong shotsHigh pressing"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.6",
+        "roles": [
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "RW",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/955245.jpg"
+    },
+    {
+      "name": "R. Gravenberch",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/ryan-gravenberch/904897",
+      "id": 904897,
+      "position": "M",
+      "jerseyNumber": "38",
+      "height": 190,
+      "preferredFoot": "Right",
+      "country": "NLD",
+      "shirtNumber": 38,
+      "dateOfBirth": 1021507200,
+      "marketValue": 38000000,
+      "attr": {
+        "ATT": "61",
+        "TEC": "59",
+        "TAC": "50",
+        "DEF": "46",
+        "CRE": "64",
+        "strengths": [
+          "Passing"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "7.4",
+        "roles": [
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DM",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/904897.jpg"
+    },
+    {
+      "name": "W. Endo",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/wataru-endo/143040",
+      "id": 143040,
+      "position": "M",
+      "jerseyNumber": "3",
+      "height": 178,
+      "preferredFoot": "Right",
+      "country": "JPN",
+      "shirtNumber": 3,
+      "dateOfBirth": 729216000,
+      "marketValue": 11900000,
+      "attr": {
+        "ATT": "54",
+        "TEC": "54",
+        "TAC": "43",
+        "DEF": "44",
+        "CRE": "59",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.4",
+        "roles": [
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DM",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/143040.jpg"
+    },
+    {
+      "name": "C. Jones",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/curtis-jones/927353",
+      "id": 927353,
+      "position": "M",
+      "jerseyNumber": "17",
+      "height": 185,
+      "preferredFoot": "Right",
+      "country": "ENG",
+      "shirtNumber": 17,
+      "dateOfBirth": 980812800,
+      "marketValue": 33000000,
+      "attr": {
+        "ATT": "56",
+        "TEC": "57",
+        "TAC": "33",
+        "DEF": "32",
+        "CRE": "60",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.7",
+        "roles": [
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/927353.jpg"
+    },
+    {
+      "name": "S. Bajčetić",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/stefan-bajcetic/1142636",
+      "id": 1142636,
+      "position": "M",
+      "jerseyNumber": "43",
+      "height": 185,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 43,
+      "dateOfBirth": 1098403200,
+      "marketValue": 10700000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1142636.jpg"
+    },
+    {
+      "name": "F. Carvalho",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/fabio-carvalho/991604",
+      "id": 991604,
+      "position": "M",
+      "jerseyNumber": "28",
+      "height": 170,
+      "preferredFoot": "Right",
+      "country": "PRT",
+      "shirtNumber": 28,
+      "dateOfBirth": 1030665600,
+      "marketValue": 13600000,
+      "attr": {
+        "ATT": "64",
+        "TEC": "47",
+        "TAC": "39",
+        "DEF": "31",
+        "CRE": "54",
+        "strengths": [
+          "Consistency"
+        ],
+        "weaknesses": [
+          "Ball control"
+        ],
+        "rating": "8.5",
+        "roles": [
+          {
+            "role": "AM",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/991604.jpg"
+    },
+    {
+      "name": "B. Clark",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/bobby-clark/1142638",
+      "id": 1142638,
+      "position": "M",
+      "jerseyNumber": "42",
+      "height": 178,
+      "preferredFoot": "Right",
+      "country": "ENG",
+      "shirtNumber": 42,
+      "dateOfBirth": 1107734400,
+      "marketValue": 1100000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1142638.jpg"
+    },
+    {
+      "name": "T. Morton",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/tyler-morton/979118",
+      "id": 979118,
+      "position": "M",
+      "jerseyNumber": "80",
+      "height": 178,
+      "preferredFoot": "Right",
+      "country": "ENG",
+      "shirtNumber": 80,
+      "dateOfBirth": 1036022400,
+      "marketValue": 8300000,
+      "attr": {
+        "ATT": "54",
+        "TEC": "60",
+        "TAC": "50",
+        "DEF": "49",
+        "CRE": "60",
+        "strengths": [
+          "Playmaking"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "7.0",
+        "roles": [
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DM",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/979118.jpg"
+    },
+    {
+      "name": "T. Alexander-Arnold",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/trent-alexander-arnold/795064",
+      "id": 795064,
+      "position": "D",
+      "jerseyNumber": "66",
+      "height": 180,
+      "preferredFoot": "Right",
+      "country": "ENG",
+      "shirtNumber": 66,
+      "dateOfBirth": 907718400,
+      "marketValue": 72000000,
+      "attr": {
+        "ATT": "63",
+        "TEC": "75",
+        "TAC": "62",
+        "DEF": "56",
+        "CRE": "84",
+        "strengths": [
+          "Direct free kicksHigh pressing"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "8.1",
+        "roles": [
+          {
+            "role": "DR",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/795064.jpg"
+    },
+    {
+      "name": "V. van Dijk",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/virgil-van-dijk/151545",
+      "id": 151545,
+      "position": "D",
+      "jerseyNumber": "4",
+      "height": 193,
+      "preferredFoot": "Right",
+      "country": "NLD",
+      "shirtNumber": 4,
+      "dateOfBirth": 678931200,
+      "marketValue": 31000000,
+      "attr": {
+        "ATT": "42",
+        "TEC": "53",
+        "TAC": "77",
+        "DEF": "81",
+        "CRE": "49",
+        "strengths": [
+          "Ground duelsAerial duelsPositioning"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.9",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/151545.jpg"
+    },
+    {
+      "name": "A. Robertson",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/andrew-robertson/262911",
+      "id": 262911,
+      "position": "D",
+      "jerseyNumber": "26",
+      "height": 178,
+      "preferredFoot": "Left",
+      "country": "SCO",
+      "shirtNumber": 26,
+      "dateOfBirth": 763344000,
+      "marketValue": 32000000,
+      "attr": {
+        "ATT": "55",
+        "TEC": "60",
+        "TAC": "45",
+        "DEF": "57",
+        "CRE": "72",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "7.1",
+        "roles": [
+          {
+            "role": "DL",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/262911.jpg"
+    },
+    {
+      "name": "I. Konaté",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/ibrahima-konate/826215",
+      "id": 826215,
+      "position": "D",
+      "jerseyNumber": "5",
+      "height": 195,
+      "preferredFoot": "Right",
+      "country": "FRA",
+      "shirtNumber": 5,
+      "dateOfBirth": 927590400,
+      "marketValue": 46000000,
+      "attr": {
+        "ATT": "37",
+        "TEC": "47",
+        "TAC": "62",
+        "DEF": "80",
+        "CRE": "40",
+        "strengths": [
+          "Ground duelsAerial duels"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.9",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/826215.jpg"
+    },
+    {
+      "name": "K. Tsimikas",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/konstantinos-tsimikas/786259",
+      "id": 786259,
+      "position": "D",
+      "jerseyNumber": "21",
+      "height": 178,
+      "preferredFoot": "Left",
+      "country": "GRC",
+      "shirtNumber": 21,
+      "dateOfBirth": 831859200,
+      "marketValue": 21000000,
+      "attr": {
+        "ATT": "48",
+        "TEC": "55",
+        "TAC": "52",
+        "DEF": "63",
+        "CRE": "65",
+        "strengths": [
+          "Passing"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.6",
+        "roles": [
+          {
+            "role": "DL",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/786259.jpg"
+    },
+    {
+      "name": "J. Gomez",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/joe-gomez/318927",
+      "id": 318927,
+      "position": "D",
+      "jerseyNumber": "2",
+      "height": 188,
+      "preferredFoot": "Right",
+      "country": "ENG",
+      "shirtNumber": 2,
+      "dateOfBirth": 864345600,
+      "marketValue": 27000000,
+      "attr": {
+        "ATT": "44",
+        "TEC": "52",
+        "TAC": "57",
+        "DEF": "66",
+        "CRE": "55",
+        "strengths": [
+          "Aerial duels"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.6",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DR",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/318927.jpg"
+    },
+    {
+      "name": "C. Bradley",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/bradley-conor/1008402",
+      "id": 1008402,
+      "position": "D",
+      "jerseyNumber": "84",
+      "height": 181,
+      "preferredFoot": "Right",
+      "country": "NIR",
+      "shirtNumber": 84,
+      "dateOfBirth": 1057708800,
+      "marketValue": 16500000,
+      "attr": {
+        "ATT": "50",
+        "TEC": "48",
+        "TAC": "43",
+        "DEF": "54",
+        "CRE": "55",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "Ball control"
+        ],
+        "rating": "6.6",
+        "roles": [
+          {
+            "role": "MR",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DR",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1008402.jpg"
+    },
+    {
+      "name": "J. Quansah",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/jarell-quansah/1003339",
+      "id": 1003339,
+      "position": "D",
+      "jerseyNumber": "78",
+      "height": 190,
+      "preferredFoot": "Right",
+      "country": "ENG",
+      "shirtNumber": 78,
+      "dateOfBirth": 1043798400,
+      "marketValue": 23000000,
+      "attr": {
+        "ATT": "40",
+        "TEC": "53",
+        "TAC": "56",
+        "DEF": "70",
+        "CRE": "44",
+        "strengths": [
+          "Ground duels"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.7",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1003339.jpg"
+    },
+    {
+      "name": "N. Phillips",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/nathaniel-phillips/920393",
+      "id": 920393,
+      "position": "D",
+      "jerseyNumber": "47",
+      "height": 190,
+      "preferredFoot": "Right",
+      "country": "ENG",
+      "shirtNumber": 47,
+      "dateOfBirth": 858902400,
+      "marketValue": 3400000,
+      "attr": {
+        "ATT": "36",
+        "TEC": "40",
+        "TAC": "44",
+        "DEF": "68",
+        "CRE": "37",
+        "strengths": [
+          "Aerial duels"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "7.7",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/920393.jpg"
+    },
+    {
+      "name": "R. Williams",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/williams-rhys/902091",
+      "id": 902091,
+      "position": "D",
+      "jerseyNumber": "46",
+      "height": 197,
+      "preferredFoot": "Right",
+      "country": "ENG",
+      "shirtNumber": 46,
+      "dateOfBirth": 981158400,
+      "marketValue": 1700000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/902091.jpg"
+    },
+    {
+      "name": "S. van den Berg",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/sepp-van-den-berg/924378",
+      "id": 924378,
+      "position": "D",
+      "jerseyNumber": "72",
+      "height": 189,
+      "preferredFoot": "Right",
+      "country": "NLD",
+      "shirtNumber": 72,
+      "dateOfBirth": 1008806400,
+      "marketValue": 12400000,
+      "attr": {
+        "ATT": "39",
+        "TEC": "45",
+        "TAC": "69",
+        "DEF": "82",
+        "CRE": "38",
+        "strengths": [
+          "Positioning"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "7.3",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DR",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/924378.jpg"
+    },
+    {
+      "name": "Alisson",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/alisson/243609",
+      "id": 243609,
+      "position": "G",
+      "jerseyNumber": "1",
+      "height": 191,
+      "preferredFoot": "Right",
+      "country": "BRA",
+      "shirtNumber": 1,
+      "dateOfBirth": 717984000,
+      "marketValue": 31000000,
+      "attr": {
+        "ATT": "84",
+        "TEC": "58",
+        "TAC": "73",
+        "DEF": "87",
+        "CRE": "69",
+        "strengths": [
+          "Long shots savingHandling"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "7.8",
+        "roles": [
+          {
+            "role": "GK",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/243609.jpg"
+    },
+    {
+      "name": "C. Kelleher",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/caoimhin-kelleher/827362",
+      "id": 827362,
+      "position": "G",
+      "jerseyNumber": "62",
+      "height": 188,
+      "preferredFoot": "Right",
+      "country": "IRL",
+      "shirtNumber": 62,
+      "dateOfBirth": 911779200,
+      "marketValue": 18000000,
+      "attr": {
+        "ATT": "71",
+        "TEC": "52",
+        "TAC": "65",
+        "DEF": "80",
+        "CRE": "61",
+        "strengths": [
+          "ReflexesLong shots saving"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "7.7",
+        "roles": [
+          {
+            "role": "GK",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/827362.jpg"
+    },
+    {
+      "name": "V. Jaroš",
+      "team": "44",
+      "url": "https://www.sofascore.com/player/vitezslav-jaros/927359",
+      "id": 927359,
+      "position": "G",
+      "jerseyNumber": "56",
+      "height": 190,
+      "preferredFoot": "Right",
+      "country": "CZE",
+      "shirtNumber": 56,
+      "dateOfBirth": 995846400,
+      "marketValue": 5300000,
+      "attr": {
+        "ATT": "58",
+        "TEC": "52",
+        "TAC": "61",
+        "DEF": "54",
+        "CRE": "63",
+        "strengths": [
+          "ReflexesHandling"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "7.1",
+        "roles": [
+          {
+            "role": "GK",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/927359.jpg"
+    }
+  ],
+  "coach": {
+    "id": 787522,
+    "name": "A. Slot",
+    "favFormation": "4-2-3-1",
+    "nat": "NLD",
+    "url": "https://www.sofascore.com/manager/arne-slot/787522",
+    "birth": 274838400,
+    "performance": {
+      "total": 210,
+      "wins": 131,
+      "draws": 44,
+      "losses": 35,
+      "goalsScored": 473,
+      "goalsConceded": 214,
+      "totalPoints": 437
+    },
+    "image": {}
+  }
+}

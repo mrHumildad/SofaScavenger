@@ -8,7 +8,7 @@ async function processLeagues() {
   let rawArrays = {};
   let report = {};
   let worldReport = {
-    playerNumber: 0,
+    plNumber: 0,
     plValue: [],
     plAge: [],
     plTOT: [],
@@ -31,7 +31,6 @@ async function processLeagues() {
       let rawLeague = tools.initArrays;
       const reportFilePath = path.join(reportsDir, league);
       await fs.mkdir(reportFilePath, { recursive: true });
-
       try {
         const teams = await fs.readdir(leagueDir);
         console.log('Teams in '+ league +': ', teams.length);

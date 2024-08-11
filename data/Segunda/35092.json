@@ -1,0 +1,405 @@
+{
+  "id": "35092",
+  "colors": {
+    "primary": "#cc0000",
+    "secondary": "#000000",
+    "text": "#000000"
+  },
+  "stadium": {
+    "name": "Estadio Municipal de Anduva",
+    "capacity": 5759
+  },
+  "abbr": "MIR",
+  "name": "Mirandés",
+  "nat": "ESP",
+  "city": "Miranda de Ebro",
+  "coachId": 796737,
+  "coachLink": "https://www.sofascore.com/manager/alessio-lisci/796737",
+  "followers": "12k",
+  "roster": [
+    {
+      "name": "G. Martínez",
+      "team": "35092",
+      "url": "https://www.sofascore.com/player/gabri-martinez/1896437",
+      "id": 1896437,
+      "position": "F",
+      "jerseyNumber": "11",
+      "country": "ESP",
+      "shirtNumber": 11,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "A. Rodríguez",
+      "team": "35092",
+      "url": "https://www.sofascore.com/player/alberto-rodriguez/862481",
+      "id": 862481,
+      "position": "M",
+      "height": 184,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "dateOfBirth": 873849600,
+      "marketValue": 580000,
+      "attr": {
+        "ATT": "43",
+        "TEC": "41",
+        "TAC": "52",
+        "DEF": "64",
+        "CRE": "43",
+        "strengths": [
+          "Positioning"
+        ],
+        "weaknesses": [
+          "Discipline"
+        ],
+        "rating": "6.7",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DM",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/862481.jpg"
+    },
+    {
+      "name": "M. Lachuer",
+      "team": "35092",
+      "url": "https://www.sofascore.com/player/mathis-lachuer/1101440",
+      "id": 1101440,
+      "position": "M",
+      "jerseyNumber": "19",
+      "height": 170,
+      "preferredFoot": "Left",
+      "country": "FRA",
+      "shirtNumber": 19,
+      "dateOfBirth": 967593600,
+      "marketValue": 435000,
+      "attr": {
+        "ATT": "50",
+        "TEC": "52",
+        "TAC": "45",
+        "DEF": "55",
+        "CRE": "48",
+        "strengths": [
+          "Ground duels"
+        ],
+        "weaknesses": [
+          "Long balls"
+        ],
+        "rating": "6.8",
+        "roles": [
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DM",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1101440.jpg"
+    },
+    {
+      "name": "A. R. Campos",
+      "team": "35092",
+      "url": "https://www.sofascore.com/player/alberto-reina-campos/882475",
+      "id": 882475,
+      "position": "M",
+      "jerseyNumber": "10",
+      "height": 168,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 10,
+      "dateOfBirth": 873763200,
+      "marketValue": 550000,
+      "attr": {
+        "ATT": "49",
+        "TEC": "57",
+        "TAC": "56",
+        "DEF": "58",
+        "CRE": "54",
+        "strengths": [
+          "TacklingGround duels"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.7",
+        "roles": [
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DM",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/882475.jpg"
+    },
+    {
+      "name": "P. Tomeo",
+      "team": "35092",
+      "url": "https://www.sofascore.com/player/pablo-tomeo/1130516",
+      "id": 1130516,
+      "position": "M",
+      "jerseyNumber": "15",
+      "height": 186,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 15,
+      "dateOfBirth": 948585600,
+      "marketValue": 290000,
+      "attr": {
+        "ATT": "43",
+        "TEC": "47",
+        "TAC": "50",
+        "DEF": "60",
+        "CRE": "39",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "Passing"
+        ],
+        "rating": "6.6",
+        "roles": [
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1130516.jpg"
+    },
+    {
+      "name": "A. O. d. Guinea",
+      "team": "35092",
+      "url": "https://www.sofascore.com/player/ortiz-de-guinea-asier/1632664",
+      "id": 1632664,
+      "position": "M",
+      "jerseyNumber": "9",
+      "preferredFoot": "Left",
+      "country": "ESP",
+      "shirtNumber": 9,
+      "dateOfBirth": 1020988800,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "N. Michelis",
+      "team": "35092",
+      "url": "https://www.sofascore.com/player/nikolaos-michelis/947318",
+      "id": 947318,
+      "position": "D",
+      "jerseyNumber": "23",
+      "height": 191,
+      "preferredFoot": "Left",
+      "country": "GRC",
+      "shirtNumber": 23,
+      "dateOfBirth": 985305600,
+      "marketValue": 310000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/947318.jpg"
+    },
+    {
+      "name": "S. Postigo",
+      "team": "35092",
+      "url": "https://www.sofascore.com/player/sergio-postigo/217384",
+      "id": 217384,
+      "position": "D",
+      "jerseyNumber": "21",
+      "height": 185,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 21,
+      "dateOfBirth": 594604800,
+      "marketValue": 375000,
+      "attr": {
+        "ATT": "35",
+        "TEC": "47",
+        "TAC": "58",
+        "DEF": "69",
+        "CRE": "40",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.9",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/217384.jpg"
+    },
+    {
+      "name": "J. Alonso",
+      "team": "35092",
+      "url": "https://www.sofascore.com/player/julio-alonso/914838",
+      "id": 914838,
+      "position": "D",
+      "height": 170,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "dateOfBirth": 913593600,
+      "marketValue": 620000,
+      "attr": {
+        "ATT": "38",
+        "TEC": "42",
+        "TAC": "39",
+        "DEF": "59",
+        "CRE": "45",
+        "strengths": [
+          "Ground duels"
+        ],
+        "weaknesses": [
+          "Long balls"
+        ],
+        "rating": "7.3",
+        "roles": [
+          {
+            "role": "DL",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/914838.jpg"
+    },
+    {
+      "name": "A. B. Barbu",
+      "team": "35092",
+      "url": "https://www.sofascore.com/player/alejandro-barbudo-barbu/1136812",
+      "id": 1136812,
+      "position": "D",
+      "jerseyNumber": "3",
+      "height": 189,
+      "country": "ESP",
+      "shirtNumber": 3,
+      "dateOfBirth": 990835200,
+      "marketValue": 530000,
+      "attr": {
+        "ATT": "36",
+        "TEC": "44",
+        "TAC": "50",
+        "DEF": "61",
+        "CRE": "36",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.7",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1136812.jpg"
+    },
+    {
+      "name": "J. G. Martinez",
+      "team": "35092",
+      "url": "https://www.sofascore.com/player/juan-gutierrez-martinez/897788",
+      "id": 897788,
+      "position": "D",
+      "jerseyNumber": "14",
+      "height": 185,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 14,
+      "dateOfBirth": 949017600,
+      "marketValue": 205000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/897788.jpg"
+    },
+    {
+      "name": "L. López",
+      "team": "35092",
+      "url": "https://www.sofascore.com/player/luis-lopez/1014375",
+      "id": 1014375,
+      "position": "G",
+      "jerseyNumber": "1",
+      "height": 190,
+      "preferredFoot": "Left",
+      "country": "ESP",
+      "shirtNumber": 1,
+      "dateOfBirth": 989280000,
+      "marketValue": 310000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1014375.jpg"
+    },
+    {
+      "name": "R. Fernández",
+      "team": "35092",
+      "url": "https://www.sofascore.com/player/raul-fernandez/31828",
+      "id": 31828,
+      "position": "G",
+      "jerseyNumber": "13",
+      "height": 196,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 13,
+      "dateOfBirth": 574214400,
+      "marketValue": 195000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/31828.jpg"
+    },
+    {
+      "name": "M. García",
+      "team": "35092",
+      "url": "https://www.sofascore.com/player/manu-garcia/1896438",
+      "id": 1896438,
+      "jerseyNumber": "12",
+      "shirtNumber": 12,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "Goikoetxea",
+      "team": "35092",
+      "url": "https://www.sofascore.com/player/goikoetxea/1896463",
+      "id": 1896463,
+      "jerseyNumber": "22",
+      "shirtNumber": 22,
+      "attr": {},
+      "image": "placeholder"
+    }
+  ],
+  "coach": {
+    "id": 796737,
+    "name": "A. Lisci",
+    "favFormation": "4-2-3-1",
+    "nat": "ITA",
+    "url": "https://www.sofascore.com/manager/alessio-lisci/796737",
+    "birth": 499910400,
+    "performance": {
+      "total": 100,
+      "wins": 34,
+      "draws": 25,
+      "losses": 41,
+      "goalsScored": 132,
+      "goalsConceded": 138,
+      "totalPoints": 127
+    },
+    "image": {}
+  }
+}

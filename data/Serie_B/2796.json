@@ -1,0 +1,726 @@
+{
+  "id": "2796",
+  "colors": {
+    "primary": "#d7112c",
+    "secondary": "#ffe40c",
+    "text": "#ffe40c"
+  },
+  "stadium": {
+    "name": "Stadio Nicola Ceravolo",
+    "capacity": 15000
+  },
+  "abbr": "USC",
+  "name": "Catanzaro",
+  "nat": "ITA",
+  "city": "Catanzaro",
+  "coachId": 788876,
+  "coachLink": "https://www.sofascore.com/manager/fabio-caserta/788876",
+  "followers": "15k",
+  "roster": [
+    {
+      "name": "P. Iemmello",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/pietro-iemmello/137665",
+      "id": 137665,
+      "position": "F",
+      "jerseyNumber": "9",
+      "height": 180,
+      "preferredFoot": "Right",
+      "country": "ITA",
+      "shirtNumber": 9,
+      "dateOfBirth": 699840000,
+      "marketValue": 1100000,
+      "attr": {
+        "ATT": "67",
+        "TEC": "52",
+        "TAC": "51",
+        "DEF": "34",
+        "CRE": "49",
+        "strengths": [
+          "Anchor play"
+        ],
+        "weaknesses": [
+          "Ball control"
+        ],
+        "rating": "9.3",
+        "roles": [
+          {
+            "role": "ST",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/137665.jpg"
+    },
+    {
+      "name": "M. Compagnon",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/mattia-compagnon/970901",
+      "id": 970901,
+      "position": "F",
+      "jerseyNumber": "14",
+      "height": 171,
+      "preferredFoot": "Left",
+      "country": "ITA",
+      "shirtNumber": 14,
+      "dateOfBirth": 1005004800,
+      "marketValue": 485000,
+      "attr": {
+        "ATT": "60",
+        "TEC": "51",
+        "TAC": "40",
+        "DEF": "25",
+        "CRE": "41",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "Ball control"
+        ],
+        "rating": "6.8",
+        "roles": [
+          {
+            "role": "ML",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/970901.jpg"
+    },
+    {
+      "name": "T. Biasci",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/tommaso-biasci/316118",
+      "id": 316118,
+      "position": "F",
+      "jerseyNumber": "28",
+      "height": 182,
+      "preferredFoot": "Right",
+      "country": "ITA",
+      "shirtNumber": 28,
+      "dateOfBirth": 784425600,
+      "marketValue": 940000,
+      "attr": {
+        "ATT": "63",
+        "TEC": "52",
+        "TAC": "44",
+        "DEF": "33",
+        "CRE": "41",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.6",
+        "roles": [
+          {
+            "role": "ST",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/316118.jpg"
+    },
+    {
+      "name": "E. Brignola",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/brignola-enrico/849009",
+      "id": 849009,
+      "position": "F",
+      "jerseyNumber": "17",
+      "height": 168,
+      "preferredFoot": "Left",
+      "country": "ITA",
+      "shirtNumber": 17,
+      "dateOfBirth": 931392000,
+      "marketValue": 325000,
+      "attr": {
+        "ATT": "55",
+        "TEC": "45",
+        "TAC": "29",
+        "DEF": "26",
+        "CRE": "42",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.2",
+        "roles": [
+          {
+            "role": "RW",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/849009.jpg"
+    },
+    {
+      "name": "F. Pittarello",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/pittarello-filippo/915098",
+      "id": 915098,
+      "position": "F",
+      "jerseyNumber": "11",
+      "height": 185,
+      "preferredFoot": "Right",
+      "country": "ITA",
+      "shirtNumber": 11,
+      "dateOfBirth": 844819200,
+      "marketValue": 485000,
+      "attr": {
+        "ATT": "59",
+        "TEC": "43",
+        "TAC": "37",
+        "DEF": "20",
+        "CRE": "46",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "Ball control"
+        ],
+        "rating": "6.8",
+        "roles": [
+          {
+            "role": "ST",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/915098.jpg"
+    },
+    {
+      "name": "A. Curcio",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/alessio-curcio/131534",
+      "id": 131534,
+      "position": "F",
+      "jerseyNumber": "10",
+      "height": 180,
+      "preferredFoot": "Right",
+      "country": "ITA",
+      "shirtNumber": 10,
+      "dateOfBirth": 637200000,
+      "marketValue": 465000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/131534.jpg"
+    },
+    {
+      "name": "Volpe",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/giovanni-volpe/995373",
+      "id": 995373,
+      "position": "F",
+      "jerseyNumber": "77",
+      "preferredFoot": "Right",
+      "country": "ITA",
+      "shirtNumber": 77,
+      "dateOfBirth": 1026518400,
+      "marketValue": 195000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/995373.jpg"
+    },
+    {
+      "name": "A. Viotti",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/alessandro-viotti/1424220",
+      "id": 1424220,
+      "position": "F",
+      "jerseyNumber": "41",
+      "shirtNumber": 41,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "C. Belpanno",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/belpanno-christian/1632635",
+      "id": 1632635,
+      "position": "F",
+      "jerseyNumber": "30",
+      "country": "ITA",
+      "shirtNumber": 30,
+      "dateOfBirth": 1072915200,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "G. G. Rafele",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/rafele-gabriel-giacinto/1868400",
+      "id": 1868400,
+      "position": "F",
+      "jerseyNumber": "40",
+      "height": 174,
+      "country": "ITA",
+      "shirtNumber": 40,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "R. Pagano",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/pagano-riccardo/1105138",
+      "id": 1105138,
+      "position": "M",
+      "jerseyNumber": "60",
+      "height": 175,
+      "preferredFoot": "Right",
+      "country": "ITA",
+      "shirtNumber": 60,
+      "dateOfBirth": 1101600000,
+      "marketValue": 2700000,
+      "attr": {
+        "ATT": "60",
+        "TEC": "72",
+        "TAC": "24",
+        "DEF": "32",
+        "CRE": "59",
+        "strengths": [
+          "ConsistencyPassingPlaymaking"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "7.2",
+        "roles": [
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1105138.jpg"
+    },
+    {
+      "name": "I. Koutsoupias",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/ilias-koutsoupias/964810",
+      "id": 964810,
+      "position": "M",
+      "jerseyNumber": "26",
+      "height": 181,
+      "preferredFoot": "Right",
+      "country": "GRC",
+      "shirtNumber": 26,
+      "dateOfBirth": 989452800,
+      "marketValue": 1400000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/964810.jpg"
+    },
+    {
+      "name": "M. Pompetti",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/marco-pompetti/867628",
+      "id": 867628,
+      "position": "M",
+      "jerseyNumber": "21",
+      "height": 176,
+      "preferredFoot": "Left",
+      "country": "ITA",
+      "shirtNumber": 21,
+      "dateOfBirth": 958953600,
+      "marketValue": 695000,
+      "attr": {
+        "ATT": "49",
+        "TEC": "50",
+        "TAC": "46",
+        "DEF": "43",
+        "CRE": "53",
+        "strengths": [
+          "Long balls"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.5",
+        "roles": [
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DM",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/867628.jpg"
+    },
+    {
+      "name": "J. Petriccione",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/jacopo-petriccione/573596",
+      "id": 573596,
+      "position": "M",
+      "jerseyNumber": "10",
+      "height": 176,
+      "preferredFoot": "Right",
+      "country": "ITA",
+      "shirtNumber": 10,
+      "dateOfBirth": 793411200,
+      "marketValue": 620000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/573596.jpg"
+    },
+    {
+      "name": "S. Pontisso",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/pontisso-simone/787830",
+      "id": 787830,
+      "position": "M",
+      "jerseyNumber": "20",
+      "height": 184,
+      "preferredFoot": "Right",
+      "country": "ITA",
+      "shirtNumber": 20,
+      "dateOfBirth": 858816000,
+      "marketValue": 380000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/787830.jpg"
+    },
+    {
+      "name": "R. Turicchia",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/riccardo-turicchia/1011756",
+      "id": 1011756,
+      "position": "D",
+      "jerseyNumber": "3",
+      "height": 180,
+      "preferredFoot": "Left",
+      "country": "ITA",
+      "shirtNumber": 3,
+      "dateOfBirth": 1044403200,
+      "marketValue": 770000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1011756.jpg"
+    },
+    {
+      "name": "M. Šitum",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/mario-situm/108030",
+      "id": 108030,
+      "position": "D",
+      "jerseyNumber": "92",
+      "height": 177,
+      "preferredFoot": "Right",
+      "country": "HRV",
+      "shirtNumber": 92,
+      "dateOfBirth": 702345600,
+      "marketValue": 435000,
+      "attr": {
+        "ATT": "41",
+        "TEC": "50",
+        "TAC": "56",
+        "DEF": "67",
+        "CRE": "51",
+        "strengths": [
+          "Long balls"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.9",
+        "roles": [
+          {
+            "role": "MR",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DR",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/108030.jpg"
+    },
+    {
+      "name": "L. Krajnc",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/luka-krajnc/139245",
+      "id": 139245,
+      "position": "D",
+      "jerseyNumber": "32",
+      "height": 188,
+      "preferredFoot": "Left",
+      "country": "SVN",
+      "shirtNumber": 32,
+      "dateOfBirth": 779932800,
+      "marketValue": 415000,
+      "attr": {
+        "ATT": "33",
+        "TEC": "38",
+        "TAC": "36",
+        "DEF": "56",
+        "CRE": "33",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "Long balls"
+        ],
+        "rating": "6.3",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DL",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/139245.jpg"
+    },
+    {
+      "name": "M. Antonini",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/matias-antonini/862238",
+      "id": 862238,
+      "position": "D",
+      "jerseyNumber": "4",
+      "height": 191,
+      "preferredFoot": "Right",
+      "country": "BRA",
+      "shirtNumber": 4,
+      "dateOfBirth": 892080000,
+      "marketValue": 880000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/862238.jpg"
+    },
+    {
+      "name": "S. Scognamillo",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/stefano-scognamillo/169485",
+      "id": 169485,
+      "position": "D",
+      "jerseyNumber": "14",
+      "height": 183,
+      "preferredFoot": "Left",
+      "country": "ITA",
+      "shirtNumber": 14,
+      "dateOfBirth": 768009600,
+      "marketValue": 830000,
+      "attr": {
+        "ATT": "35",
+        "TEC": "43",
+        "TAC": "48",
+        "DEF": "63",
+        "CRE": "38",
+        "strengths": [
+          "Ground duels"
+        ],
+        "weaknesses": [
+          "Discipline"
+        ],
+        "rating": "6.9",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DR",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/169485.jpg"
+    },
+    {
+      "name": "N. Brighenti",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/nicolo-brighenti/137946",
+      "id": 137946,
+      "position": "D",
+      "jerseyNumber": "23",
+      "height": 178,
+      "preferredFoot": "Right",
+      "country": "ITA",
+      "shirtNumber": 23,
+      "dateOfBirth": 617932800,
+      "marketValue": 280000,
+      "attr": {
+        "ATT": "36",
+        "TEC": "42",
+        "TAC": "51",
+        "DEF": "66",
+        "CRE": "34",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "Discipline"
+        ],
+        "rating": "7.2",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DR",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/137946.jpg"
+    },
+    {
+      "name": "F. Bonini",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/bonini-federico/1020897",
+      "id": 1020897,
+      "position": "D",
+      "jerseyNumber": "6",
+      "height": 185,
+      "preferredFoot": "Left",
+      "country": "ITA",
+      "shirtNumber": 6,
+      "dateOfBirth": 996969600,
+      "marketValue": 485000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1020897.jpg"
+    },
+    {
+      "name": "M. Piras",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/marcello-piras/1899923",
+      "id": 1899923,
+      "position": "D",
+      "height": 190,
+      "preferredFoot": "Right",
+      "country": "ITA",
+      "dateOfBirth": 1093046400,
+      "marketValue": 93000,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "M. Pigliacelli",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/mirko-pigliacelli/173351",
+      "id": 173351,
+      "position": "G",
+      "jerseyNumber": "22",
+      "height": 185,
+      "preferredFoot": "Right",
+      "country": "ITA",
+      "shirtNumber": 22,
+      "dateOfBirth": 741398400,
+      "marketValue": 735000,
+      "attr": {
+        "ATT": "55",
+        "TEC": "41",
+        "TAC": "53",
+        "DEF": "66",
+        "CRE": "56",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.7",
+        "roles": [
+          {
+            "role": "GK",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/173351.jpg"
+    },
+    {
+      "name": "A. Dini",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/andrea-dini/276007",
+      "id": 276007,
+      "position": "G",
+      "height": 184,
+      "preferredFoot": "Right",
+      "country": "ITA",
+      "dateOfBirth": 824774400,
+      "marketValue": 170000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/276007.jpg"
+    },
+    {
+      "name": "E. Borrelli",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/edoardo-borrelli/1516879",
+      "id": 1516879,
+      "position": "G",
+      "jerseyNumber": "22",
+      "country": "ITA",
+      "shirtNumber": 22,
+      "dateOfBirth": 1090540800,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1516879.jpg"
+    },
+    {
+      "name": "A. Rizzuto",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/alfonso-rizzuto/1141707",
+      "id": 1141707,
+      "position": "G",
+      "jerseyNumber": "12",
+      "height": 182,
+      "preferredFoot": "Left",
+      "country": "ITA",
+      "shirtNumber": 12,
+      "dateOfBirth": 1089158400,
+      "marketValue": 135000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1141707.jpg"
+    },
+    {
+      "name": "G. Grimaldi",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/grimaldi-grimaldi/1868396",
+      "id": 1868396,
+      "position": "G",
+      "jerseyNumber": "12",
+      "country": "ITA",
+      "shirtNumber": 12,
+      "dateOfBirth": 1136073600,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "R. Scavone",
+      "team": "2796",
+      "url": "https://www.sofascore.com/player/rocco-scavone/1434526",
+      "id": 1434526,
+      "country": "ITA",
+      "attr": {},
+      "image": "placeholder"
+    }
+  ],
+  "coach": {
+    "id": 788876,
+    "name": "F. Caserta",
+    "favFormation": "4-3-3",
+    "nat": "ITA",
+    "url": "https://www.sofascore.com/manager/fabio-caserta/788876",
+    "birth": 275443200,
+    "performance": {
+      "total": 243,
+      "wins": 107,
+      "draws": 65,
+      "losses": 71,
+      "goalsScored": 358,
+      "goalsConceded": 263,
+      "totalPoints": 386
+    },
+    "image": {}
+  }
+}

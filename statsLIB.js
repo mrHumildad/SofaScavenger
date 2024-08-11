@@ -61,6 +61,15 @@ function calculateStats(unfilteredArray) {
     const stdDev = calculateStandardDeviation(array, avg);
     const q1 = percentile(array, 25);
     const q3 = percentile(array, 75);
+    const qArr = [
+        percentile(array, 5),   // die => 2 
+        percentile(array, 20),  // die => 3
+        percentile(array, 35),  // die => 4
+        percentile(array, 50),  // die => 5
+        percentile(array, 65),  // die => 6
+        percentile(array, 80),  // die => 7
+        percentile(array, 95),  // die => 8
+    ];
     const skewness = calculateSkewness(array, avg, stdDev);
     const kurtosis = calculateKurtosis(array, avg, stdDev);
     const outliers = detectOutliers(array, q1, q3);
@@ -74,9 +83,10 @@ function calculateStats(unfilteredArray) {
         standardDeviation: stdDev,
         percentile25: q1,
         percentile75: q3,
+        qArr: qArr,
         skewness,
-        kurtosis,
-        outliers,
+        //kurtosis,
+        //outliers,
         badValue
     };
 };

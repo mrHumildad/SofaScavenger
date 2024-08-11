@@ -1,0 +1,541 @@
+{
+  "id": "5067",
+  "colors": {
+    "primary": "#191f23",
+    "secondary": "#d5d9ec",
+    "text": "#d5d9ec"
+  },
+  "stadium": {
+    "name": "Estadio Municipal Castalia",
+    "capacity": 15500
+  },
+  "abbr": "CAS",
+  "name": "CD Castellón",
+  "nat": "ESP",
+  "city": "Castellon",
+  "coachId": 789216,
+  "coachLink": "https://www.sofascore.com/manager/dick-schreuder/789216",
+  "followers": "8.8k",
+  "roster": [
+    {
+      "name": "B. Cipenga",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/brian-cipenga/1160969",
+      "id": 1160969,
+      "position": "F",
+      "jerseyNumber": "77",
+      "height": 169,
+      "preferredFoot": "Left",
+      "country": "COD",
+      "shirtNumber": 77,
+      "dateOfBirth": 894844800,
+      "marketValue": 570000,
+      "attr": {
+        "ATT": "56",
+        "TEC": "55",
+        "TAC": "34",
+        "DEF": "37",
+        "CRE": "54",
+        "strengths": [
+          "High pressing"
+        ],
+        "weaknesses": [
+          "Ball control"
+        ],
+        "rating": "7.0",
+        "roles": [
+          {
+            "role": "LW",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1160969.jpg"
+    },
+    {
+      "name": "Á. Calatrava",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/alex-calatrava/1136863",
+      "id": 1136863,
+      "position": "F",
+      "jerseyNumber": "65",
+      "height": 175,
+      "preferredFoot": "Left",
+      "country": "ESP",
+      "shirtNumber": 65,
+      "dateOfBirth": 961632000,
+      "marketValue": 195000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1136863.jpg"
+    },
+    {
+      "name": "J. d. Miguel",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/jesus-de-miguel/950498",
+      "id": 950498,
+      "position": "F",
+      "jerseyNumber": "9",
+      "height": 189,
+      "country": "ESP",
+      "shirtNumber": 9,
+      "dateOfBirth": 843264000,
+      "marketValue": 655000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/950498.jpg"
+    },
+    {
+      "name": "S. Moyita",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/sergio-moyita/1146729",
+      "id": 1146729,
+      "position": "F",
+      "jerseyNumber": "20",
+      "height": 174,
+      "country": "ESP",
+      "shirtNumber": 20,
+      "dateOfBirth": 716169600,
+      "marketValue": 210000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1146729.jpg"
+    },
+    {
+      "name": "T. V. d. Belt",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/thomas-van-den-belt/945233",
+      "id": 945233,
+      "position": "M",
+      "jerseyNumber": "16",
+      "height": 181,
+      "preferredFoot": "Right",
+      "country": "NLD",
+      "shirtNumber": 16,
+      "dateOfBirth": 992822400,
+      "marketValue": 1700000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/945233.jpg"
+    },
+    {
+      "name": "M. Seuntjens",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/mats-seuntjens/163541",
+      "id": 163541,
+      "position": "M",
+      "jerseyNumber": "16",
+      "height": 187,
+      "preferredFoot": "Right",
+      "country": "NLD",
+      "shirtNumber": 16,
+      "dateOfBirth": 703468800,
+      "marketValue": 820000,
+      "attr": {
+        "ATT": "63",
+        "TEC": "55",
+        "TAC": "34",
+        "DEF": "24",
+        "CRE": "66",
+        "strengths": [
+          "Playmaking"
+        ],
+        "weaknesses": [
+          "Ball controlPassing"
+        ],
+        "rating": "7.0",
+        "roles": [
+          {
+            "role": "ST",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "LW",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/163541.jpg"
+    },
+    {
+      "name": "D. Aurélio",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/douglas-aurelio/975809",
+      "id": 975809,
+      "position": "M",
+      "jerseyNumber": "22",
+      "height": 183,
+      "preferredFoot": "Left",
+      "country": "BRA",
+      "shirtNumber": 22,
+      "dateOfBirth": 922492800,
+      "marketValue": 725000,
+      "attr": {
+        "ATT": "60",
+        "TEC": "82",
+        "TAC": "35",
+        "DEF": "36",
+        "CRE": "59",
+        "strengths": [
+          "Ball control"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "roles": [
+          {
+            "role": "RW",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "ST",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "LW",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "AM",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/975809.jpg"
+    },
+    {
+      "name": "K. O. Mamah",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/kenneth-obinna-mamah/1210425",
+      "id": 1210425,
+      "position": "M",
+      "jerseyNumber": "29",
+      "height": 182,
+      "preferredFoot": "Right",
+      "country": "NGA",
+      "shirtNumber": 29,
+      "dateOfBirth": 894326400,
+      "marketValue": 600000,
+      "attr": {
+        "ATT": "55",
+        "TEC": "52",
+        "TAC": "49",
+        "DEF": "48",
+        "CRE": "49",
+        "strengths": [
+          "High pressing"
+        ],
+        "weaknesses": [
+          "Passing"
+        ],
+        "rating": "7.8",
+        "roles": [
+          {
+            "role": "ST",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1210425.jpg"
+    },
+    {
+      "name": "A. Lottin",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/lottin-albert/980528",
+      "id": 980528,
+      "position": "M",
+      "jerseyNumber": "4",
+      "height": 181,
+      "preferredFoot": "Right",
+      "country": "FRA",
+      "shirtNumber": 4,
+      "dateOfBirth": 999043200,
+      "marketValue": 230000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/980528.jpg"
+    },
+    {
+      "name": "J. Calavera",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/josep-calavera/905007",
+      "id": 905007,
+      "position": "M",
+      "jerseyNumber": "18",
+      "height": 180,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 18,
+      "dateOfBirth": 938822400,
+      "marketValue": 465000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/905007.jpg"
+    },
+    {
+      "name": "D. Villahermosa",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/daniel-villahermosa/1012440",
+      "id": 1012440,
+      "position": "M",
+      "jerseyNumber": "19",
+      "height": 172,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 19,
+      "dateOfBirth": 978393600,
+      "marketValue": 320000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1012440.jpg"
+    },
+    {
+      "name": "I. S. Fernández",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/israel-suero-fernandez/891314",
+      "id": 891314,
+      "position": "M",
+      "jerseyNumber": "26",
+      "height": 176,
+      "preferredFoot": "Left",
+      "country": "ESP",
+      "shirtNumber": 26,
+      "dateOfBirth": 786499200,
+      "marketValue": 220000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/891314.jpg"
+    },
+    {
+      "name": "R. Sánchez",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/raul-sanchez/900989",
+      "id": 900989,
+      "position": "M",
+      "jerseyNumber": "10",
+      "height": 188,
+      "preferredFoot": "Left",
+      "country": "ESP",
+      "shirtNumber": 10,
+      "dateOfBirth": 878947200,
+      "marketValue": 515000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/900989.jpg"
+    },
+    {
+      "name": "S. Ruiz",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/salvador-ruiz/138388",
+      "id": 138388,
+      "position": "M",
+      "jerseyNumber": "17",
+      "height": 176,
+      "preferredFoot": "Left",
+      "country": "ESP",
+      "shirtNumber": 17,
+      "dateOfBirth": 800668800,
+      "marketValue": 365000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/138388.jpg"
+    },
+    {
+      "name": "J. Willems",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/jetro-willems/138828",
+      "id": 138828,
+      "position": "D",
+      "jerseyNumber": "15",
+      "height": 169,
+      "preferredFoot": "Left",
+      "country": "NLD",
+      "shirtNumber": 15,
+      "dateOfBirth": 764985600,
+      "marketValue": 365000,
+      "attr": {
+        "ATT": "39",
+        "TEC": "48",
+        "TAC": "34",
+        "DEF": "50",
+        "CRE": "49",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.6",
+        "roles": [
+          {
+            "role": "DL",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "ML",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/138828.jpg"
+    },
+    {
+      "name": "D. Chirino",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/daijiro-chirino/1014492",
+      "id": 1014492,
+      "position": "D",
+      "jerseyNumber": "12",
+      "height": 185,
+      "preferredFoot": "Right",
+      "country": "CUW",
+      "shirtNumber": 12,
+      "dateOfBirth": 1011830400,
+      "marketValue": 415000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1014492.jpg"
+    },
+    {
+      "name": "J. Vertrouwd",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/jozhua-vertrouwd/1120947",
+      "id": 1120947,
+      "position": "D",
+      "jerseyNumber": "31",
+      "height": 188,
+      "preferredFoot": "Left",
+      "country": "NLD",
+      "shirtNumber": 31,
+      "dateOfBirth": 1124582400,
+      "marketValue": 155000,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "O. Gil",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/gil-oscar/804629",
+      "id": 804629,
+      "position": "D",
+      "jerseyNumber": "14",
+      "height": 184,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 14,
+      "dateOfBirth": 803088000,
+      "marketValue": 290000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/804629.jpg"
+    },
+    {
+      "name": "A. Jiménez",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/alberto-jimenez/343907",
+      "id": 343907,
+      "position": "D",
+      "jerseyNumber": "32",
+      "height": 186,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 32,
+      "dateOfBirth": 721785600,
+      "marketValue": 160000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/343907.jpg"
+    },
+    {
+      "name": "A. Abedzadeh",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/amir-abedzadeh/828247",
+      "id": 828247,
+      "position": "G",
+      "height": 190,
+      "preferredFoot": "Right",
+      "country": "IRN",
+      "dateOfBirth": 735782400,
+      "marketValue": 555000,
+      "attr": {
+        "ATT": "62",
+        "TEC": "52",
+        "TAC": "44",
+        "DEF": "55",
+        "CRE": "60",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "5.7",
+        "roles": [
+          {
+            "role": "GK",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/828247.jpg"
+    },
+    {
+      "name": "G. Crettaz",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/gonzalo-crettaz/990798",
+      "id": 990798,
+      "position": "G",
+      "jerseyNumber": "1",
+      "height": 181,
+      "preferredFoot": "Right",
+      "country": "ARG",
+      "shirtNumber": 1,
+      "dateOfBirth": 951696000,
+      "marketValue": 475000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/990798.jpg"
+    },
+    {
+      "name": "B. Schwake",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/brian-schwake/1047171",
+      "id": 1047171,
+      "position": "G",
+      "jerseyNumber": "13",
+      "height": 189,
+      "preferredFoot": "Right",
+      "country": "USA",
+      "shirtNumber": 13,
+      "dateOfBirth": 998611200,
+      "marketValue": 210000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1047171.jpg"
+    },
+    {
+      "name": "C. Pirot",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/cesar-pirot/1407829",
+      "id": 1407829,
+      "position": "G",
+      "jerseyNumber": "25",
+      "shirtNumber": 25,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "R. Murcia",
+      "team": "5067",
+      "url": "https://www.sofascore.com/player/ruben-murcia/1862698",
+      "id": 1862698,
+      "jerseyNumber": "37",
+      "shirtNumber": 37,
+      "attr": {},
+      "image": "placeholder"
+    }
+  ],
+  "coach": {
+    "id": 789216,
+    "name": "D. Schreuder",
+    "favFormation": "3-5-2",
+    "nat": "NLD",
+    "url": "https://www.sofascore.com/manager/dick-schreuder/789216",
+    "birth": 49939200,
+    "performance": {
+      "total": 194,
+      "wins": 112,
+      "draws": 29,
+      "losses": 53,
+      "goalsScored": 370,
+      "goalsConceded": 228,
+      "totalPoints": 365
+    },
+    "image": {}
+  }
+}

@@ -1,0 +1,807 @@
+{
+  "id": "2830",
+  "colors": {
+    "primary": "#ffffff",
+    "secondary": "#3791f2",
+    "text": "#3791f2"
+  },
+  "stadium": {
+    "name": "La Rosaleda",
+    "capacity": 30044
+  },
+  "abbr": "MCF",
+  "name": "Málaga",
+  "nat": "ESP",
+  "city": "Malaga",
+  "coachId": 794155,
+  "coachLink": "https://www.sofascore.com/manager/sergio-pellicer/794155",
+  "followers": "23k",
+  "roster": [
+    {
+      "name": "H. Abaida",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/haitam-abaida/1021125",
+      "id": 1021125,
+      "position": "F",
+      "jerseyNumber": "7",
+      "height": 172,
+      "preferredFoot": "Left",
+      "country": "MAR",
+      "shirtNumber": 7,
+      "dateOfBirth": 1022889600,
+      "marketValue": 205000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1021125.jpg"
+    },
+    {
+      "name": "R. Baturina",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/roko-baturina/876036",
+      "id": 876036,
+      "position": "F",
+      "jerseyNumber": "9",
+      "height": 185,
+      "preferredFoot": "Left",
+      "country": "HRV",
+      "shirtNumber": 9,
+      "dateOfBirth": 961459200,
+      "marketValue": 720000,
+      "attr": {
+        "ATT": "61",
+        "TEC": "46",
+        "TAC": "37",
+        "DEF": "24",
+        "CRE": "39",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.4",
+        "roles": [
+          {
+            "role": "ST",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/876036.jpg"
+    },
+    {
+      "name": "R. Castro",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/ruben-castro/18006",
+      "id": 18006,
+      "position": "F",
+      "jerseyNumber": "24",
+      "height": 169,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 24,
+      "dateOfBirth": 362448000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/18006.jpg"
+    },
+    {
+      "name": "J. Lobete",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/julen-lobete/1006232",
+      "id": 1006232,
+      "position": "F",
+      "jerseyNumber": "7",
+      "height": 176,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 7,
+      "dateOfBirth": 969235200,
+      "marketValue": 1600000,
+      "attr": {
+        "ATT": "59",
+        "TEC": "55",
+        "TAC": "39",
+        "DEF": "29",
+        "CRE": "51",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.5",
+        "roles": [
+          {
+            "role": "ST",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "LW",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1006232.jpg"
+    },
+    {
+      "name": "K. Medina",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/kevin-medina/1092777",
+      "id": 1092777,
+      "position": "F",
+      "jerseyNumber": "11",
+      "height": 173,
+      "preferredFoot": "Both",
+      "country": "ESP",
+      "shirtNumber": 11,
+      "dateOfBirth": 983145600,
+      "marketValue": 840000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1092777.jpg"
+    },
+    {
+      "name": "A. Cordero",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/antonio-cordero/1531384",
+      "id": 1531384,
+      "position": "F",
+      "jerseyNumber": "26",
+      "height": 178,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 26,
+      "dateOfBirth": 1163462400,
+      "marketValue": 205000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1531384.jpg"
+    },
+    {
+      "name": "D. Larrubia",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/david-larrubia/1002405",
+      "id": 1002405,
+      "position": "F",
+      "jerseyNumber": "10",
+      "height": 172,
+      "preferredFoot": "Both",
+      "country": "ESP",
+      "shirtNumber": 10,
+      "dateOfBirth": 1019260800,
+      "marketValue": 420000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1002405.jpg"
+    },
+    {
+      "name": "Dioni",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/dioni/122835",
+      "id": 122835,
+      "position": "F",
+      "jerseyNumber": "17",
+      "height": 184,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 17,
+      "dateOfBirth": 630201600,
+      "marketValue": 380000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/122835.jpg"
+    },
+    {
+      "name": "J. H. García",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/juan-hernandez-garcia/598044",
+      "id": 598044,
+      "position": "F",
+      "jerseyNumber": "21",
+      "height": 177,
+      "preferredFoot": "Left",
+      "country": "ESP",
+      "shirtNumber": 21,
+      "dateOfBirth": 786672000,
+      "marketValue": 190000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/598044.jpg"
+    },
+    {
+      "name": "H. Abaida",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/haitam-abaida/1096659",
+      "id": 1096659,
+      "position": "F",
+      "jerseyNumber": "7",
+      "country": "MAR",
+      "shirtNumber": 7,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1096659.jpg"
+    },
+    {
+      "name": "L. Zuniga",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/zuniga-lorenzo/1095675",
+      "id": 1095675,
+      "position": "F",
+      "jerseyNumber": "9",
+      "shirtNumber": 9,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "Juanma",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/juanma/1441830",
+      "id": 1441830,
+      "position": "F",
+      "jerseyNumber": "40",
+      "shirtNumber": 40,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "A. Ochoa",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/aaron-ochoa/1566178",
+      "id": 1566178,
+      "position": "M",
+      "jerseyNumber": "35",
+      "height": 167,
+      "preferredFoot": "Right",
+      "country": "IRL",
+      "shirtNumber": 35,
+      "dateOfBirth": 1176854400,
+      "marketValue": 110000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1566178.jpg"
+    },
+    {
+      "name": "Luismi",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/luismi/383438",
+      "id": 383438,
+      "position": "M",
+      "height": 180,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "dateOfBirth": 705024000,
+      "marketValue": 485000,
+      "attr": {
+        "ATT": "45",
+        "TEC": "54",
+        "TAC": "58",
+        "DEF": "64",
+        "CRE": "49",
+        "strengths": [
+          "Long ballsPositioning"
+        ],
+        "weaknesses": [
+          "Discipline"
+        ],
+        "rating": "6.8",
+        "roles": [
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DM",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/383438.jpg"
+    },
+    {
+      "name": "R. Enríquez",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/ramon-enriquez/990800",
+      "id": 990800,
+      "position": "M",
+      "height": 173,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "dateOfBirth": 984960000,
+      "marketValue": 285000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/990800.jpg"
+    },
+    {
+      "name": "M. Molina",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/manu-molina/128950",
+      "id": 128950,
+      "position": "M",
+      "jerseyNumber": "12",
+      "height": 169,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 12,
+      "dateOfBirth": 690595200,
+      "marketValue": 290000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/128950.jpg"
+    },
+    {
+      "name": "L. Sangalli",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/luca-sangalli/891932",
+      "id": 891932,
+      "position": "M",
+      "jerseyNumber": "23",
+      "height": 167,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 23,
+      "dateOfBirth": 792374400,
+      "marketValue": 225000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/891932.jpg"
+    },
+    {
+      "name": "I. Merino",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/izan-merino/1493488",
+      "id": 1493488,
+      "position": "M",
+      "jerseyNumber": "29",
+      "height": 186,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 29,
+      "dateOfBirth": 1145059200,
+      "marketValue": 97000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1493488.jpg"
+    },
+    {
+      "name": "D. Lorenzo",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/dani-lorenzo/1465424",
+      "id": 1465424,
+      "position": "M",
+      "jerseyNumber": "22",
+      "height": 176,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 22,
+      "dateOfBirth": 1049500800,
+      "marketValue": 365000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1465424.jpg"
+    },
+    {
+      "name": "Juanpe",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/juanpe/828966",
+      "id": 828966,
+      "position": "M",
+      "jerseyNumber": "8",
+      "height": 194,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 8,
+      "dateOfBirth": 823046400,
+      "marketValue": 260000,
+      "attr": {
+        "ATT": "49",
+        "TEC": "48",
+        "TAC": "51",
+        "DEF": "54",
+        "CRE": "50",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "Long balls"
+        ],
+        "roles": [
+          {
+            "role": "MC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/828966.jpg"
+    },
+    {
+      "name": "J. M. Rangel",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/jesus-martin-rangel/1091182",
+      "id": 1091182,
+      "position": "M",
+      "jerseyNumber": "27",
+      "height": 179,
+      "preferredFoot": "Left",
+      "country": "ESP",
+      "shirtNumber": 27,
+      "dateOfBirth": 1030406400,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "R. Rodríguez",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/rodriguez-rafa/1465149",
+      "id": 1465149,
+      "position": "M",
+      "jerseyNumber": "41",
+      "country": "ESP",
+      "shirtNumber": 41,
+      "dateOfBirth": 1057795200,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "L. Sanchez",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/sanchez-luismi/1884125",
+      "id": 1884125,
+      "position": "M",
+      "height": 179,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "dateOfBirth": 705024000,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "R. G. Hierro",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/garrido-hierro-rafael/1900938",
+      "id": 1900938,
+      "position": "M",
+      "jerseyNumber": "31",
+      "country": "ESP",
+      "shirtNumber": 31,
+      "dateOfBirth": 1072915200,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "E. Galilea",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/einar-galilea/344797",
+      "id": 344797,
+      "position": "D",
+      "jerseyNumber": "4",
+      "height": 182,
+      "preferredFoot": "Left",
+      "country": "ESP",
+      "shirtNumber": 4,
+      "dateOfBirth": 801100800,
+      "marketValue": 420000,
+      "attr": {
+        "ATT": "36",
+        "TEC": "46",
+        "TAC": "59",
+        "DEF": "76",
+        "CRE": "39",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "DisciplineLong balls"
+        ],
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/344797.jpg"
+    },
+    {
+      "name": "N. Monte",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/nelson-monte/831014",
+      "id": 831014,
+      "position": "D",
+      "jerseyNumber": "20",
+      "height": 187,
+      "preferredFoot": "Right",
+      "country": "PRT",
+      "shirtNumber": 20,
+      "dateOfBirth": 807062400,
+      "marketValue": 485000,
+      "attr": {
+        "ATT": "35",
+        "TEC": "45",
+        "TAC": "65",
+        "DEF": "75",
+        "CRE": "43",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DR",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/831014.jpg"
+    },
+    {
+      "name": "M. Diarra",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/moussa-diarra/1134722",
+      "id": 1134722,
+      "position": "D",
+      "jerseyNumber": "15",
+      "height": 186,
+      "preferredFoot": "Right",
+      "country": "MLI",
+      "shirtNumber": 15,
+      "dateOfBirth": 1011484800,
+      "marketValue": 47000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1134722.jpg"
+    },
+    {
+      "name": "Á. Pastor",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/alex-pastor/928825",
+      "id": 928825,
+      "position": "D",
+      "jerseyNumber": "5",
+      "height": 185,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 5,
+      "dateOfBirth": 938736000,
+      "marketValue": 310000,
+      "attr": {
+        "ATT": "37",
+        "TEC": "47",
+        "TAC": "57",
+        "DEF": "69",
+        "CRE": "41",
+        "strengths": [
+          "Ground duels"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "rating": "6.6",
+        "roles": [
+          {
+            "role": "DC",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "DR",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/928825.jpg"
+    },
+    {
+      "name": "J. Gabilondo",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/jokin-gabilondo/1012407",
+      "id": 1012407,
+      "position": "D",
+      "jerseyNumber": "2",
+      "height": 176,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 2,
+      "dateOfBirth": 923616000,
+      "marketValue": 410000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1012407.jpg"
+    },
+    {
+      "name": "V. G. Marin",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/victor-garcia-marin/773651",
+      "id": 773651,
+      "position": "D",
+      "jerseyNumber": "14",
+      "height": 180,
+      "preferredFoot": "Left",
+      "country": "ESP",
+      "shirtNumber": 14,
+      "dateOfBirth": 770342400,
+      "marketValue": 340000,
+      "attr": {
+        "ATT": "41",
+        "TEC": "39",
+        "TAC": "43",
+        "DEF": "61",
+        "CRE": "45",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "roles": [
+          {
+            "role": "DL",
+            "fill": "var(--surface-s1)"
+          },
+          {
+            "role": "ML",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/773651.jpg"
+    },
+    {
+      "name": "C. Puga",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/carlos-puga/1164708",
+      "id": 1164708,
+      "position": "D",
+      "jerseyNumber": "3",
+      "height": 175,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 3,
+      "dateOfBirth": 975196800,
+      "marketValue": 205000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1164708.jpg"
+    },
+    {
+      "name": "D. Murillo",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/diego-murillo/1410734",
+      "id": 1410734,
+      "position": "D",
+      "jerseyNumber": "16",
+      "height": 182,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 16,
+      "dateOfBirth": 984528000,
+      "marketValue": 105000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1410734.jpg"
+    },
+    {
+      "name": "A. Caro",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/andres-caro/1100499",
+      "id": 1100499,
+      "position": "D",
+      "jerseyNumber": "31",
+      "height": 184,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 31,
+      "dateOfBirth": 1075593600,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1100499.jpg"
+    },
+    {
+      "name": "D. Sánchez",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/daniel-sanchez/966681",
+      "id": 966681,
+      "position": "D",
+      "jerseyNumber": "18",
+      "height": 171,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 18,
+      "dateOfBirth": 947808000,
+      "marketValue": 215000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/966681.jpg"
+    },
+    {
+      "name": "Á. Recio",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/angel-recio/1123218",
+      "id": 1123218,
+      "position": "D",
+      "jerseyNumber": "33",
+      "shirtNumber": 33,
+      "dateOfBirth": 1041724800,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "J. Gabilondo",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/gabilondo-jokin/1143470",
+      "id": 1143470,
+      "position": "D",
+      "jerseyNumber": "2",
+      "shirtNumber": 2,
+      "attr": {},
+      "image": "placeholder"
+    },
+    {
+      "name": "M. A. S. Lara",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/santaella-lara-miguel-angel/1900943",
+      "id": 1900943,
+      "position": "D",
+      "jerseyNumber": "32",
+      "country": "ESP",
+      "shirtNumber": 32,
+      "dateOfBirth": 1117152000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1900943.jpg"
+    },
+    {
+      "name": "A. Herrero",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/alfonso-herrero/96371",
+      "id": 96371,
+      "position": "G",
+      "jerseyNumber": "1",
+      "height": 180,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 1,
+      "dateOfBirth": 766886400,
+      "marketValue": 420000,
+      "attr": {
+        "ATT": "54",
+        "TEC": "41",
+        "TAC": "52",
+        "DEF": "56",
+        "CRE": "64",
+        "strengths": [
+          "No outstanding Strengths"
+        ],
+        "weaknesses": [
+          "No outstanding Weaknesses"
+        ],
+        "roles": [
+          {
+            "role": "GK",
+            "fill": "var(--surface-s1)"
+          }
+        ]
+      },
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/96371.jpg"
+    },
+    {
+      "name": "C. Lopez",
+      "team": "2830",
+      "url": "https://www.sofascore.com/player/lopez-carlos/1442178",
+      "id": 1442178,
+      "position": "G",
+      "jerseyNumber": "13",
+      "height": 184,
+      "preferredFoot": "Right",
+      "country": "ESP",
+      "shirtNumber": 13,
+      "dateOfBirth": 1100304000,
+      "marketValue": 47000,
+      "attr": {},
+      "image": "/home/mrhumildad/DEVELOP/SCRAP/world/pics/players/1442178.jpg"
+    }
+  ],
+  "coach": {
+    "id": 794155,
+    "name": "S. Pellicer",
+    "favFormation": "4-4-2",
+    "nat": "ESP",
+    "url": "https://www.sofascore.com/manager/sergio-pellicer/794155",
+    "birth": 116380800,
+    "performance": {
+      "total": 157,
+      "wins": 58,
+      "draws": 48,
+      "losses": 51,
+      "goalsScored": 172,
+      "goalsConceded": 157,
+      "totalPoints": 222
+    },
+    "image": {}
+  }
+}
