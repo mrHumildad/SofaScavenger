@@ -3,146 +3,126 @@ const path = require('path');
 const tools = require('./tools');
 const leaguesDir = 'data/';
 const reportsDir = 'reports/';
+const _ = require('lodash');
 
 async function processLeagues() {
-  let rawArrays = {};
-  let report = {};
-  let worldReport = {
-    plNumber: 0,
-    plValue: [],
-    plAge: [],
-    plTOT: [],
-    plATT: [],
-    plTEC: [],
-    plTAC: [],
-    plDEF: [],
-    plCRE: [],
-    plRating: [],
-    noATTR: [],
-    noRating: []
-  };
+  
+  let worldRaw = _.cloneDeep(tools.rawInit);
+  let rolesArr = [];
+  let abilities = [];
+  let tactics = [];
   try {
     const leagues = await fs.readdir(leaguesDir);
-    //console.log('Leagues:', leagues);
-
+    console.log('Leagues found:', leagues.length);
     for (const league of leagues) {
       const leagueDir = path.join(leaguesDir, league);
-      //console.log('League directory:', leagueDir);
-      let rawLeague = tools.initArrays;
+      console.log('League analize => ', leagueDir);
+      //let rawLeague = {...tools.rawInit};
+
       const reportFilePath = path.join(reportsDir, league);
       await fs.mkdir(reportFilePath, { recursive: true });
       try {
         const teams = await fs.readdir(leagueDir);
         console.log('Teams in '+ league +': ', teams.length);
-
         for (const teamFile of teams) {
           const teamPath = path.join(leagueDir, teamFile);
           try {
             const teamData = JSON.parse(await fs.readFile(teamPath, 'utf8'));
-
+            console.log('Analizing team ', teamData.name, teamData.id)
             // Create team-specific raw data object with necessary properties
-            let teamRaw = {
-              plNumber: 0,
-              plValue: [],
-              plAge: [],
-              plTOT: [],
-              plATT: [],
-              plTEC: [],
-              plTAC: [],
-              plDEF: [],
-              plCRE: [],
-              plRating: [],
-              noATTR: [],
-              noRating: []
-            };
-            
-            rawLeague.teamFollowers.push(tools.convertToNumber(teamData.followers));
-            rawLeague.stadium.push(teamData.stadium.capacity);
+            let teamRaw = _.cloneDeep(tools.rawInit);
+            const coach = teamData.coach;
+            worldRaw.coachAge.push(tools.calculateAge(coach.birth));
+            /* for (const stat of coach.performance) {
+              worldRaw.coach[stat].push(coach.performance[stat])
+            } */
+            worldRaw.coach.pointsXGame.push(((coach.performance.wins * 3) +   coach.performance.draws) / coach.performance.total)
+            worldRaw.coach.goalsXGame.push(coach.performance.goalsScored /   coach.performance.total)
+            worldRaw.coach.concededXGame.push(coach.performance.goalsConceded / coach.performance.total)
+            worldRaw.coach.total.push(coach.performance.goalsConceded / coach.performance.total)
+            if (!tactics.includes(coach.favFormation))
+              tactics.push(coach.favFormation);
+
+
 
             for (let index = 0; index < teamData.roster.length; index++) {
               const player = teamData.roster[index];
-              rawLeague.plNumber++;
-              teamRaw.plNumber++;
-              rawLeague.plValue.push(player.marketValue);
-              teamRaw.plValue.push(player.marketValue);
-              rawLeague.plAge.push(tools.calculateAge(player.dateOfBirth));
-              teamRaw.plAge.push(tools.calculateAge(player.dateOfBirth));
-              worldReport.plNumber++;
-              worldReport.plValue.push(player.marketValue);
-              worldReport.plAge.push(tools.calculateAge(player.dateOfBirth));
- 
-              if (player.attr.ATT) {
-                const playerTotal = Number(player.attr.ATT) + Number(player.attr.TEC) + Number(player.attr.TAC) + Number(player.attr.DEF) + Number(player.attr.CRE);
-                rawLeague.plTOT.push(playerTotal);
-                teamRaw.plTOT.push(playerTotal);
-                rawLeague.plATT.push(Number(player.attr.ATT));
-                teamRaw.plATT.push(Number(player.attr.ATT));
-                rawLeague.plTEC.push(Number(player.attr.TEC));
-                teamRaw.plTEC.push(Number(player.attr.TEC));
-                rawLeague.plTAC.push(Number(player.attr.TAC));
-                teamRaw.plTAC.push(Number(player.attr.TAC));
-                rawLeague.plDEF.push(Number(player.attr.DEF));
-                teamRaw.plDEF.push(Number(player.attr.DEF));
-                rawLeague.plCRE.push(Number(player.attr.CRE));
-                teamRaw.plCRE.push(Number(player.attr.CRE));
-                worldReport.plTOT.push(playerTotal);
-                worldReport.plATT.push(Number(player.attr.ATT));
-                worldReport.plTEC.push(Number(player.attr.TEC));
-                worldReport.plTAC.push(Number(player.attr.TAC));
-                worldReport.plDEF.push(Number(player.attr.DEF));
-                worldReport.plCRE.push(Number(player.attr.CRE));
-              } else {
-                rawLeague.noATTR.push(Number(player.id));
-                teamRaw.noATTR.push(Number(player.id));
-                worldReport.noATTR.push(Number(player.id));
+              if (!player.position) {
+                worldRaw.plcounts.noRole++;
+                teamRaw.plcounts.noRole++;
+                continue ;
+              };
+              worldRaw.plcounts.total[player.position]++
+              teamRaw.plcounts.total[player.position]++
+              if (!player.marketValue) {
+                worldRaw.plcounts.noPrice[player.position]++
+                teamRaw.plcounts.noPrice[player.position]++
               }
-
-              if (player.attr.rating) {
-                rawLeague.plRating.push(Number(player.attr.rating));
-                teamRaw.plRating.push(Number(player.attr.rating));
-                worldReport.plRating.push(Number(player.attr.rating));
+              if (player.attr.ATT && player.attr.rating && player.marketValue) {
+                worldRaw.plcounts.complete[player.position]++
+                teamRaw.plcounts.complete[player.position]++
+                const playerTotal = (Number(player.attr.ATT) + Number(player.attr.TEC) + Number(player.attr.TAC) + Number(player.attr.DEF) + Number(player.attr.CRE));
+                worldRaw.plTOT[player.position].push(playerTotal);
+                worldRaw.plATT[player.position].push(Number(player.attr.ATT));
+                worldRaw.plTEC[player.position].push(Number(player.attr.TEC));
+                worldRaw.plTAC[player.position].push(Number(player.attr.TAC));
+                worldRaw.plDEF[player.position].push(Number(player.attr.DEF));
+                worldRaw.plCRE[player.position].push(Number(player.attr.CRE));
+                worldRaw.plRating[player.position].push(Number(player.attr.rating));
+                for (let i = 0; i < player.attr.roles.length; i++) {
+                  const role = player.attr.roles[i];
+                  if (!rolesArr.includes(role.role))
+                    rolesArr.push(role.role);
+                };
+                const strengths = player.attr.strengths[0];
+                if (strengths && strengths != 'No outstanding Strengths') {
+                  const strArr = strengths.split(/(?=[A-Z])/);
+                  /* console.log(strengths);
+                  console.log(strArr); */
+                  for (let i = 0; i < strArr.length; i++) {
+                    const ability = strArr[i].trim();
+                    if (!abilities.includes(ability))
+                      abilities.push(ability);
+                  }
+                }
               } else {
-                rawLeague.noRating.push(Number(player.id));
-                teamRaw.noRating.push(Number(player.id));
-                worldReport.noRating.push(Number(player.id));
+                worldRaw.plcounts.noATTR[player.position]++
+                teamRaw.plcounts.noATTR[player.position]++
               }
+              worldRaw.plAge[player.position].push(tools.calculateAge(player.dateOfBirth));
+              worldRaw.plValue[player.position].push(player.marketValue);
             }
-            // Generate team report using team-specific raw data
-            const teamReport = tools.getReport(teamRaw);
-
-            // Write team report to JSON file within league directory
-            const teamReportFileName = teamData.abbr + '-' + teamData.id + '.json'
-            const teamJsonFilePath = path.join(reportFilePath, teamReportFileName);
-            console.log(teamData.name + ' report written: ' + teamReportFileName)
-            await fs.writeFile(teamJsonFilePath, JSON.stringify(teamReport, null, 2));
+            //console.log(teamData.name);  
+            //console.log(teamRaw.plcounts); 
+            worldRaw.plcounts.byTeam[teamData.abbr + teamData.id] = {...teamRaw.plcounts};
           } catch (error) {
             console.error(`Error parsing team file ${teamFile}:`, error);
           }
         }
 
-        // Calculate min, max, and middle for the league
       } catch (error) {
         console.error(`Error reading teams for league ${league}:`, error);
       }
 
       // Generate and write league report
-      let leagueReport = tools.getReport(rawLeague);
-      const jsonFilePath = path.join(reportFilePath, league + '.json');
-      console.log(league + ' report written: ' + league + '.json')
-      await fs.writeFile(jsonFilePath, JSON.stringify(leagueReport, null, 2));
+      //console.log(rawLeague)
+      
     }
-     // Calculate world report
-     const worldReportData = tools.getReport(worldReport);
 
-     // Write world report to JSON file
-     const worldReportPath = path.join(reportsDir, 'world.json');
-     await fs.writeFile(worldReportPath, JSON.stringify(worldReportData, null, 2));
-    console.log('WORLD REPORT GENERATED');
-     //console.log('Final result:', report);
-    //console.log('Final result:', report);
   } catch (error) {
     console.error('Error processing leagues:', error);
   }
-}
+  console.log(worldRaw)
+
+  const report = tools.getReport(worldRaw);
+  //Geneerate and write worldReport
+  console.log('WORLD REPORT:');
+  //console.log(report);
+  await fs.writeFile('REPORT.json', JSON.stringify(report, null, 2));
+  console.log('WORLD REPORT GENERATED AND WRITTEN');
+  console.log(rolesArr);
+  console.log(abilities);
+  console.log(tactics);
+};
 
 processLeagues();

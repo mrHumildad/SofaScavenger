@@ -18,15 +18,15 @@
       15500000
     ],
     "skewness": 9.070338552783548,
-    "badValue": 179
+    "badValue": 172
   },
   "playerAge": {
-    "total": 51620,
+    "total": 51602,
     "min": 16,
     "max": 42,
-    "avg": 25.939698492462313,
+    "avg": 25.943690296631473,
     "median": 25,
-    "standardDeviation": 4.670702217608826,
+    "standardDeviation": 4.668481295178358,
     "percentile25": 22,
     "percentile75": 29,
     "qArr": [
@@ -38,8 +38,8 @@
       30,
       34
     ],
-    "skewness": 0.43679197631592537,
-    "badValue": 38
+    "skewness": 0.4375437510541968,
+    "badValue": 32
   },
   "playerATT": {
     "total": 68389,
@@ -188,7 +188,7 @@
     "skewness": 0.6448500318892566,
     "badValue": 0
   },
-  "playerNumber": 2028,
-  "noATTR": 702,
-  "noRating": 704
+  "playerNumber": 2021,
+  "noATTR": 680,
+  "noRating": 682
 }

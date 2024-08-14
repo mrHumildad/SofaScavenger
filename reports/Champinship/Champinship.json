@@ -18,7 +18,7 @@
       10300000
     ],
     "skewness": 2.7681337775448096,
-    "badValue": 92
+    "badValue": 91
   },
   "playerAge": {
     "total": 17614,
@@ -39,7 +39,7 @@
       33
     ],
     "skewness": 0.32202713710131176,
-    "badValue": 14
+    "badValue": 13
   },
   "playerATT": {
     "total": 23928,
@@ -188,7 +188,7 @@
     "skewness": 0.46132048344859045,
     "badValue": 0
   },
-  "playerNumber": 714,
-  "noATTR": 238,
-  "noRating": 239
+  "playerNumber": 713,
+  "noATTR": 233,
+  "noRating": 234
 }

@@ -46,67 +46,125 @@ function convertToNumber(str) {
     return currentYear - birthYear;
 }
 
-const initArrays = {
-  teamFollowers: [],
-  stadium: [],
-  plValue : [],
-  plAge: [],
-  plATT: [],
-  plTEC: [],
-  plTAC: [],
-  plDEF: [],
-  plCRE: [],
-  plTOT: [],
-  plRating: [],
-  plNumber: 0,
-  noATTR: [],
-  noRating: [] 
+const rawInit = {
+  plValue:  {G : [], D : [], M : [], F : []},
+  plAge:    {G : [], D : [], M : [], F : []},
+  plTOT:    {G : [], D : [], M : [], F : []},
+  plATT:    {G : [], D : [], M : [], F : []},
+  plTEC:    {G : [], D : [], M : [], F : []},
+  plTAC:    {G : [], D : [], M : [], F : []},
+  plDEF:    {G : [], D : [], M : [], F : []},
+  plCRE:    {G : [], D : [], M : [], F : []},
+  plRating: {G : [], D : [], M : [], F : []},
+  plcounts: {
+    total:    {G: 0,  D: 0,  M: 0,  F:  0},
+    noATTR:   {G : 0, D : 0, M : 0, F : 0},
+    noPrice: {G : 0, D : 0, M : 0, F : 0},
+    complete: {G : 0, D : 0, M : 0, F : 0},
+    noRole: 0,
+    byTeam: {}
+  },
+  coachAge : [],
+  coach: {
+    "total": [],
+    "pointsXGame": [],
+    "goalsXGame": [],
+    "concededXGame": []
+  }
 };
 
-const getReport = (rawData, isTeam) => {
-  const baseReport = {
-    playerValue: calculateStats(rawData.plValue),
-    playerAge: calculateStats(rawData.plAge),
-    playerATT: calculateStats(rawData.plATT),
-    playerTEC: calculateStats(rawData.plTEC),
-    playerTAC: calculateStats(rawData.plTAC),
-    playerDEF: calculateStats(rawData.plDEF),
-    playerCRE: calculateStats(rawData.plCRE),
-    playerTOT: calculateStats(rawData.plTOT),
-    playerRating: calculateStats(rawData.plRating),
-    playerNumber: rawData.plNumber,
-    noATTR: rawData.noATTR.length,
-    noRating: rawData.noRating.length
-  };
-
-  /* if (!isTeam) {
-    return {
-      ...baseReport,
-      teamFollowers: calculateStats(rawData.teamFollowers),
-      stadiumCapacity: calculateStats(rawData.stadium)
-    }; */
-  /* } else {
-    } */
- return baseReport;
-};
+const getReport = (rawData) => {
+  let report ={...rawInit}
+  for (const [stat, roleObj] of Object.entries(rawData)) {
+    //console.log(`Key: ${stat}, Value: ${roleObj}`);
+    if (stat == 'plcounts'){
+      report.plcounts = rawData.plcounts;
+      continue ;
+    };
+    if (stat == 'coachAge') {
+      report.coachAge = calculateStats(rawData.coachAge);
+      continue ;
+    }
+    if (stat == 'coach') {
+      console.log('******   REPORTING COACH', rawData.coach)
+      report.coach.total = calculateStats(rawData.coach.total)
+      report.coach.pointsXGame = calculateStats(rawData.coach.pointsXGame)
+      report.coach.goalsXGame = calculateStats(rawData.coach.goalsXGame)
+      report.coach.concededXGame = calculateStats(rawData.coach.concededXGame)
+      continue ;
+    }
+    for (let i = 0; i < ['G', 'D', 'M', 'F'].length; i++) {
+      const role = ['G', 'D', 'M', 'F'][i];
+      console.log('REPORTING ', stat, role);
+      report[stat][role] = calculateStats(rawData[stat][role])
+    }
+  }
+  return report;
+ };
 
   module.exports = {
     convertToNumber,
     formatNumber,
     calculateAge,
     getReport,
-    initArrays
+    rawInit
   };
   
+  playerAbilities = [
+    'Positioning',       'High pressing',
+    'Playmaking',        'Long shots',
+    'Long balls',        'Ground duels',
+    'Aerial duels',      'Tackling',
+    'Penalty taking',    'Finishing',
+    'Passing',           'Consistency',
+    'Long shots saving', 'High claims',
+    'Anchor play',       'Ball control',
+    'Reflexes',          'Direct free kicks',
+    'Penalty saving',    'Handling',
+    'Runs out',          'Ball interception'
+  ];
+Roles =  [
+  'ST', 'LW', 'AM',
+  'MC', 'DM', 'RW',
+  'MR', 'DR', 'DC',
+  'DL', 'ML', 'GK'
+];
 
-  // Examples of how to use the functions
-  /* const num1 = convertToNumber("436k");
-  const num2 = convertToNumber("3.6M");
-  const formattedNum1 = formatNumber(num1);
-  const formattedNum2 = formatNumber(num2);
-  
-  console.log(num1); // Output: 436000
-  console.log(num2); // Output: 3600000
-  console.log(formattedNum1); // Output: 436.0k
-  console.log(formattedNum2); // Output: 3.6M */
-  
+tactics = {
+  "3-5-2": {
+    "GK": "GK",
+    "Defenders": ["DC", "DC", "DC"],
+    "Midfielders": ["ML", "MC", "DM", "MC", "MR"],
+    "Forwards": ["ST", "ST"]
+  },
+  "3-4-3": {
+    "GK": "GK",
+    "Defenders": ["DC", "DC", "DC"],
+    "Midfielders": ["ML", "MC", "MC", "MR"],
+    "Forwards": ["LW", "ST", "RW"]
+  },
+  "4-4-2": {
+    "GK": "GK",
+    "Defenders": ["DL", "DC", "DC", "DR"],
+    "Midfielders": ["ML", "MC", "MC", "MR"],
+    "Forwards": ["ST", "ST"]
+  },
+  "4-3-3": {
+    "GK": "GK",
+    "Defenders": ["DL", "DC", "DC", "DR"],
+    "Midfielders": ["MC", "DM", "MC"],
+    "Forwards": ["LW", "ST", "RW"]
+  },
+  "5-3-2": {
+    "GK": "GK",
+    "Defenders": ["DL", "DC", "DC", "DC", "DR"],
+    "Midfielders": ["MC", "DM", "MC"],
+    "Forwards": ["ST", "ST"]
+  },
+  "5-4-1": {
+    "GK": "GK",
+    "Defenders": ["DL", "DC", "DC", "DC", "DR"],
+    "Midfielders": ["ML", "MC", "MC", "MR"],
+    "Forwards": ["ST"]
+  }
+}

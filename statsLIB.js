@@ -50,6 +50,7 @@ function calculateCorrelation(xArray, yArray) {
 };
 
 function calculateStats(unfilteredArray) {
+    console.log(unfilteredArray)
     const array = unfilteredArray.filter(value => value);
     if (array.length === 0) return null;
     const badValue = unfilteredArray.length - array.length;

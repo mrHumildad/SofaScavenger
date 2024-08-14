@@ -1,11 +1,11 @@
 {
   "playerValue": {
-    "total": 24383552954,
+    "total": 24383392954,
     "min": 23000,
     "max": 196000000,
-    "avg": 6756318.3579939045,
+    "avg": 6758146.605875831,
     "median": 1600000,
-    "standardDeviation": 14750957.33520397,
+    "standardDeviation": 14752592.555644479,
     "percentile25": 470000,
     "percentile75": 5300000,
     "qArr": [
@@ -17,16 +17,16 @@
       8300000,
       32000000
     ],
-    "skewness": 5.1787056388068775,
-    "badValue": 323
+    "skewness": 5.178072522909197,
+    "badValue": 304
   },
   "playerAge": {
-    "total": 99285,
+    "total": 99224,
     "min": 16,
     "max": 43,
-    "avg": 25.795011691348403,
+    "avg": 25.799271970878834,
     "median": 25,
-    "standardDeviation": 4.62412214849327,
+    "standardDeviation": 4.623051457012584,
     "percentile25": 22,
     "percentile75": 29,
     "qArr": [
@@ -38,8 +38,8 @@
       30,
       34
     ],
-    "skewness": 0.4540681371661969,
-    "badValue": 83
+    "skewness": 0.45378904041478846,
+    "badValue": 66
   },
   "playerATT": {
     "total": 137012,
@@ -188,7 +188,7 @@
     "skewness": 0.9480228638200647,
     "badValue": 0
   },
-  "playerNumber": 3932,
-  "noATTR": 1337,
-  "noRating": 1350
+  "playerNumber": 3912,
+  "noATTR": 1290,
+  "noRating": 1303
 }
