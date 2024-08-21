@@ -83,8 +83,7 @@
       ],
       "skewness": 5.567178430066961,
       "badValue": 61
-    },
-    "TOT": null
+    }
   },
   "plAge": {
     "G": {
@@ -170,10 +169,9 @@
       ],
       "skewness": 0.5819358883753056,
       "badValue": 10
-    },
-    "TOT": null
+    }
   },
-  "TOT": {
+  "plTOT": {
     "G": {
       "total": 56158,
       "min": 156,
@@ -257,30 +255,9 @@
       ],
       "skewness": 1.0025193040065394,
       "badValue": 0
-    },
-    "TOT": {
-      "total": 690344,
-      "min": 156,
-      "max": 400,
-      "avg": 253.70966556413083,
-      "median": 249,
-      "standardDeviation": 29.496700840163815,
-      "percentile25": 234,
-      "percentile75": 268,
-      "qArr": [
-        215,
-        231,
-        240,
-        249,
-        259,
-        274,
-        306
-      ],
-      "skewness": 1.1799166402635604,
-      "badValue": 0
     }
   },
-  "ATT": {
+  "plATT": {
     "G": {
       "total": 12312,
       "min": 44,
@@ -364,30 +341,9 @@
       ],
       "skewness": 0.6717605436119195,
       "badValue": 0
-    },
-    "TOT": {
-      "total": 143576,
-      "min": 31,
-      "max": 92,
-      "avg": 52.765894891583976,
-      "median": 53,
-      "standardDeviation": 12.19861776117808,
-      "percentile25": 42,
-      "percentile75": 61,
-      "qArr": [
-        35,
-        40,
-        47,
-        53,
-        58,
-        63,
-        74
-      ],
-      "skewness": 0.27035692872584716,
-      "badValue": 0
     }
   },
-  "TEC": {
+  "plTEC": {
     "G": {
       "total": 9102,
       "min": 11,
@@ -471,30 +427,9 @@
       ],
       "skewness": 1.0532999781617811,
       "badValue": 0
-    },
-    "TOT": {
-      "total": 138939,
-      "min": 11,
-      "max": 93,
-      "avg": 51.06174200661521,
-      "median": 50,
-      "standardDeviation": 8.157617349259365,
-      "percentile25": 45,
-      "percentile75": 56,
-      "qArr": [
-        41,
-        44,
-        47,
-        50,
-        53,
-        57,
-        66
-      ],
-      "skewness": 0.8040439631532158,
-      "badValue": 0
     }
   },
-  "TAC": {
+  "plTAC": {
     "G": {
       "total": 10797,
       "min": 11,
@@ -578,30 +513,9 @@
       ],
       "skewness": 0.3052870067241394,
       "badValue": 0
-    },
-    "TOT": {
-      "total": 131175,
-      "min": 11,
-      "max": 91,
-      "avg": 48.20837927232635,
-      "median": 47,
-      "standardDeviation": 10.750363855496946,
-      "percentile25": 41,
-      "percentile75": 55,
-      "qArr": [
-        32,
-        39,
-        44,
-        47,
-        52,
-        57,
-        68
-      ],
-      "skewness": 0.39415103292664355,
-      "badValue": 0
     }
   },
-  "DEF": {
+  "plDEF": {
     "G": {
       "total": 12382,
       "min": 44,
@@ -685,30 +599,9 @@
       ],
       "skewness": -0.29985563187352976,
       "badValue": 0
-    },
-    "TOT": {
-      "total": 136218,
-      "min": 11,
-      "max": 94,
-      "avg": 50.06174200661521,
-      "median": 50,
-      "standardDeviation": 17.00147676469337,
-      "percentile25": 35,
-      "percentile75": 64,
-      "qArr": [
-        25,
-        33,
-        40,
-        50,
-        58,
-        67,
-        77
-      ],
-      "skewness": 0.10427672262245456,
-      "badValue": 0
     }
   },
-  "CRE": {
+  "plCRE": {
     "G": {
       "total": 11565,
       "min": 38,
@@ -792,30 +685,9 @@
       ],
       "skewness": 1.0607073836494607,
       "badValue": 0
-    },
-    "TOT": {
-      "total": 140436,
-      "min": 30,
-      "max": 99,
-      "avg": 51.611907386990076,
-      "median": 50,
-      "standardDeviation": 10.22934674373803,
-      "percentile25": 44,
-      "percentile75": 58,
-      "qArr": [
-        37,
-        42,
-        47,
-        50,
-        55,
-        60,
-        71
-      ],
-      "skewness": 0.6026356399417926,
-      "badValue": 0
     }
   },
-  "rating": {
+  "plRating": {
     "G": {
       "total": 1307.3399999999997,
       "min": 4.6,
@@ -898,27 +770,6 @@
         7.9
       ],
       "skewness": 1.3929493780397886,
-      "badValue": 0
-    },
-    "TOT": {
-      "total": 18795.93000000002,
-      "min": 3.6,
-      "max": 9.9,
-      "avg": 6.907728776185233,
-      "median": 6.8,
-      "standardDeviation": 0.5102220671660177,
-      "percentile25": 6.6,
-      "percentile75": 7.2,
-      "qArr": [
-        6.3,
-        6.5,
-        6.7,
-        6.8,
-        7,
-        7.3,
-        7.8
-      ],
-      "skewness": 0.9770851903032908,
       "badValue": 0
     }
   },

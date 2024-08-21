@@ -39,7 +39,7 @@ async function processLeagues() {
             worldRaw.coach.pointsXGame.push(((coach.performance.wins * 3) +   coach.performance.draws) / coach.performance.total)
             worldRaw.coach.goalsXGame.push(coach.performance.goalsScored /   coach.performance.total)
             worldRaw.coach.concededXGame.push(coach.performance.goalsConceded / coach.performance.total)
-            worldRaw.coach.total.push(coach.performance.goalsConceded / coach.performance.total)
+            worldRaw.coach.total.push(coach.performance.total)
             if (!tactics.includes(coach.favFormation))
               tactics.push(coach.favFormation);
 
@@ -62,13 +62,20 @@ async function processLeagues() {
                 worldRaw.plcounts.complete[player.position]++
                 teamRaw.plcounts.complete[player.position]++
                 const playerTotal = (Number(player.attr.ATT) + Number(player.attr.TEC) + Number(player.attr.TAC) + Number(player.attr.DEF) + Number(player.attr.CRE));
-                worldRaw.plTOT[player.position].push(playerTotal);
-                worldRaw.plATT[player.position].push(Number(player.attr.ATT));
-                worldRaw.plTEC[player.position].push(Number(player.attr.TEC));
-                worldRaw.plTAC[player.position].push(Number(player.attr.TAC));
-                worldRaw.plDEF[player.position].push(Number(player.attr.DEF));
-                worldRaw.plCRE[player.position].push(Number(player.attr.CRE));
-                worldRaw.plRating[player.position].push(Number(player.attr.rating));
+                worldRaw.TOT[player.position].push(playerTotal);
+                worldRaw.ATT[player.position].push(Number(player.attr.ATT));
+                worldRaw.TEC[player.position].push(Number(player.attr.TEC));
+                worldRaw.TAC[player.position].push(Number(player.attr.TAC));
+                worldRaw.DEF[player.position].push(Number(player.attr.DEF));
+                worldRaw.CRE[player.position].push(Number(player.attr.CRE));
+                worldRaw.rating[player.position].push(Number(player.attr.rating));
+                worldRaw.TOT.TOT.push(playerTotal);
+                worldRaw.ATT.TOT.push(Number(player.attr.ATT));
+                worldRaw.TEC.TOT.push(Number(player.attr.TEC));
+                worldRaw.TAC.TOT.push(Number(player.attr.TAC));
+                worldRaw.DEF.TOT.push(Number(player.attr.DEF));
+                worldRaw.CRE.TOT.push(Number(player.attr.CRE));
+                worldRaw.rating.TOT.push(Number(player.attr.rating));
                 for (let i = 0; i < player.attr.roles.length; i++) {
                   const role = player.attr.roles[i];
                   if (!rolesArr.includes(role.role))

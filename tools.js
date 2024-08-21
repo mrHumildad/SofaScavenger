@@ -47,15 +47,15 @@ function convertToNumber(str) {
 }
 
 const rawInit = {
-  plValue:  {G : [], D : [], M : [], F : []},
-  plAge:    {G : [], D : [], M : [], F : []},
-  plTOT:    {G : [], D : [], M : [], F : []},
-  plATT:    {G : [], D : [], M : [], F : []},
-  plTEC:    {G : [], D : [], M : [], F : []},
-  plTAC:    {G : [], D : [], M : [], F : []},
-  plDEF:    {G : [], D : [], M : [], F : []},
-  plCRE:    {G : [], D : [], M : [], F : []},
-  plRating: {G : [], D : [], M : [], F : []},
+  plValue:  {G : [], D : [], M : [], F : [], TOT : []},
+  plAge:    {G : [], D : [], M : [], F : [], TOT : []},
+  TOT:      {G : [], D : [], M : [], F : [], TOT : []},
+  ATT:      {G : [], D : [], M : [], F : [], TOT : []},
+  TEC:      {G : [], D : [], M : [], F : [], TOT : []},
+  TAC:      {G : [], D : [], M : [], F : [], TOT : []},
+  DEF:      {G : [], D : [], M : [], F : [], TOT : []},
+  CRE:      {G : [], D : [], M : [], F : [], TOT : []},
+  rating:   {G : [], D : [], M : [], F : [], TOT : []},
   plcounts: {
     total:    {G: 0,  D: 0,  M: 0,  F:  0},
     noATTR:   {G : 0, D : 0, M : 0, F : 0},
@@ -93,20 +93,61 @@ const getReport = (rawData) => {
       report.coach.concededXGame = calculateStats(rawData.coach.concededXGame)
       continue ;
     }
-    for (let i = 0; i < ['G', 'D', 'M', 'F'].length; i++) {
-      const role = ['G', 'D', 'M', 'F'][i];
+    for (let i = 0; i < ['G', 'D', 'M', 'F', 'TOT'].length; i++) {
+      const role = ['G', 'D', 'M', 'F', 'TOT'][i];
       console.log('REPORTING ', stat, role);
+      console.log(rawData[stat])
       report[stat][role] = calculateStats(rawData[stat][role])
     }
   }
   return report;
  };
 
+function findQ(arr, num) {
+ for (let i = 0; i < arr.length; i++) {
+   if (arr[i] >= num) {
+     return i;
+   }
+ }
+ return arr.length;
+}
+
+function lottery(tickets) {
+  if (tickets.length === 0) {
+      return null;  // Return null if the array is empty
+  }
+
+  const totalTickets = tickets.reduce((acc, num) => acc + num, 0);
+  const winnerTicket = Math.floor(Math.random() * totalTickets) + 1;
+
+  let currentSum = 0;
+  for (let i = 0; i < tickets.length; i++) {
+      currentSum += tickets[i];
+      if (winnerTicket <= currentSum) {
+          return i;
+      }
+  }
+}
+
+const countFaces = (die, act) => {
+  let arr =[];
+  for (let index = 0; index < die.length; index++) {
+    const face = die[index];
+    if (face.act == act) {
+      arr.push(index);
+    };
+  };
+  return arr;
+}
+
   module.exports = {
     convertToNumber,
     formatNumber,
     calculateAge,
     getReport,
+    findQ,
+    lottery,
+    countFaces,
     rawInit
   };
   
