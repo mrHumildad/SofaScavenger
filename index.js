@@ -1,7 +1,7 @@
 const fs = require('fs/promises');
 const path = require('path');
 const tools = require('./tools');
-//const world = require('./world')
+const emptyWorld = require('./world')
 const dataDir = 'data/';
 const reportsDir = 'reports/';
 const role2Acts = (roles, pos) => {
@@ -78,7 +78,7 @@ const makePlayer = (data, repo) => {
 			const position = data.attr.roles[index];
 			positions.push(position.role);
 		}
-		console.log(positions);
+		//console.log(positions);
 	}
 	let pl = {
 		name: data.name,
@@ -92,7 +92,7 @@ const makePlayer = (data, repo) => {
 		price: data.marketValue,
 		action: null,
 		stats: playerStats,
-		matchStats: playerStats,
+		//matchStats: playerStats,
 		market: true,
 		die: [
 			{face: 0, act: role2Acts(role, data.position)[0], value: 2},
@@ -298,26 +298,34 @@ const teamMaker = async (teamPath, repo) => {
 	};
 };
 
-
-
 const main = async () => {
+	let world = {...emptyWorld}
 	try {
 		console.log('BUILDING WORLD OBJECT')
 		const repo = JSON.parse(await fs.readFile('REPORT.json', 'utf8'));
     console.log('opened report and parsed ');
-		const leagues = await fs.readdir(dataDir);
-		console.log('leagues: ' , leagues)
-		for (const league of leagues) {
-			console.log('ACCESSING LEAGUE: ' + league);
-			const leaguePath = path.resolve(dataDir,league);
-			const teams = await fs.readdir(leaguePath);
-			//console.log(teams);
-			for (const teamFile of teams) {
-				const teamPath = path.resolve(leaguePath, teamFile);
-				const team = await teamMaker(teamPath, repo);
-
-			};
-		};
+		const nations = Object.keys(world.nations);
+		console.log(nations)
+		const leaguesDIRS = await fs.readdir(dataDir);
+		for (let index = 0; index < nations.length; index++) {
+			const nation = nations[index];
+			console.log('MAKING NATION: ', 	nation);
+			for (let index = 0; index < world.nations[nation].leagues.length; index++) {
+				const league = world.nations[nation].leagues[index];
+				const leaguePath = path.resolve(dataDir,league.name);
+				const teams = await fs.readdir(leaguePath);
+				console.log('	found ', teams.length, ' in ', 	league.name);
+				let teamObjArr = []
+				for (const teamFile of teams) {
+					const teamPath = path.resolve(leaguePath, teamFile);
+					const team = await teamMaker(teamPath, repo);
+					teamObjArr.push(team)
+				};
+				world.nations[nation].leagues[index] = teamObjArr;
+			}
+		}
+		await fs.writeFile('WORLD.json', JSON.stringify(world, null, 2));
+  	console.log('WORLD GENERATED AND WRITTEN');
 	} catch (error) {
 		console.error('Error reading or parsing the file:', error);
 	};

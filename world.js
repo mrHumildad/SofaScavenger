@@ -61,7 +61,7 @@ const world = {
 			leagues: [
 				{
 					level: 1,
-					name: 'Permier_League',
+					name: 'Premier_League',
 					relegated: 3,
 					subs: [5, 3],
 					championsLPlaces: 4,
@@ -97,5 +97,5 @@ const world = {
 		}
 	}
 
-export default world;
+module.exports = world;
 
