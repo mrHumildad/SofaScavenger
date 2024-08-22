@@ -321,7 +321,7 @@ const main = async () => {
 					const team = await teamMaker(teamPath, repo);
 					teamObjArr.push(team)
 				};
-				world.nations[nation].leagues[index] = teamObjArr;
+				world.nations[nation].leagues[index].teams						 = teamObjArr;
 			}
 		}
 		await fs.writeFile('WORLD.json', JSON.stringify(world, null, 2));
